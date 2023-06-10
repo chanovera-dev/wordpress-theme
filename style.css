@@ -53,6 +53,7 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
     .scroll-up .main-header{transform:none; transition:all .3s ease-in-out}
     /* marca */
     .header-content .site-brand{z-index:1; display:flex; align-items:center;}
+    .header-content .site-brand a{color:var(--color-text); text-decoration:none;}
     .header-content .site-brand .custom-logo-link:focus{outline:none;}
     .header-content .site-brand .custom-logo-link .custom-logo{width:13rem; transition:all .3s ease;}
     /* menu */
@@ -74,7 +75,7 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 #main-footer{background-color:var(--background-color-footer); color:var(--color-text-footer); overflow:hidden;}
 .footer-content{padding:4rem 0; display:grid;gap:3rem; text-align:center;}
 :is(.contact-footer, .secondary .menu) li{display:flex; align-items:center; justify-content:center; height:4rem;}
-:is(.contact-footer, .secondary .menu) li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-text-link-footer);}
+:is(.contact-footer, .secondary .menu) li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-text); text-decoration:none;}
 .contact-footer li a svg{color:var(--color-text-link-footer);}
 /* social */
 .footer-content .social ul{display:flex; align-items:center; justify-content:center; gap:3rem; height:4rem;}
@@ -82,7 +83,7 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 .footer-content .social ul li a:before{position:relative; padding:10px; display:inline-block;}
 /* logo */
 .footer-content .site-brand{display:grid; place-content:center; grid-column:1/-1;}
-.footer-content .site-brand a{position:relative;}
+.footer-content .site-brand a{position:relative; color:var(--color-text); text-decoration:none;}
 .footer-content .site-brand a:before, 
 .footer-content .site-brand a:after{position:absolute; content:''; width:1500px; height:1px; background-color:var(--color-text); opacity:.09; top:50%; left:-1530px; }
 .footer-content .site-brand a:after{left:inherit; right:-1530px;}
