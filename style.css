@@ -85,6 +85,7 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
             .menu-searchform-group .menu{display:grid;}
             .menu-searchform-group .menu li{height:5rem; display:flex; align-items:center;}
             .menu-searchform-group .menu li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
+            .menu-searchform-group .menu li a{color:var(--color-text); text-decoration:none;}
             .menu-searchform-group :is(.searchform, .primary){transform:translateX(100%);}
             .menu-searchform-group.active{
                 animation-name:animation-menu; animation-direction:normal; animation-duration:2s; animation-timing-function:ease; animation-iteration-count:1;
