@@ -9,3 +9,6 @@ function load_parts_header() {
      
 }
 add_action( 'wp_enqueue_scripts', 'load_parts_header' );
+
+// Anexos al customizador de Wordpress
+require_once(get_template_directory() . '/functions/customizer.php');

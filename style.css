@@ -18,7 +18,7 @@ Tags:
 html{font-size:62.5%; scroll-behavior:smooth;}
 body, header, main, footer, section, article, div, input, textarea, ul, ol, li, figure, figcaption, a{box-sizing:border-box;}
 body{font-size:1.7rem; color:var(--color-text); background-color:var(--background-color-body);}
-:is(header, footer, section, div, article) :is(div, h1, h2, h3, h4, p, span, li, a, figure){margin:0;}
+:is(header, footer, section, div, article) :is(div, h1, h2, h3, h4, h5, p, span, li, a, figure){margin:0;}
 :is(ol, ul){margin:0; padding:0; list-style:none;}
 a{border-radius:.3rem; transition:all .25s ease;}
 a:hover{filter:brightness(1.15);}
