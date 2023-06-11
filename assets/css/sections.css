@@ -1,7 +1,8 @@
 /* encabezado de páginas */
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper{position:relative; background-color:var(--background-color-title-section);}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title-section{position:relative; padding:2rem 0; display:grid; gap:1.7rem;}
-:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a{display:inline-flex; align-items:baseline; gap:.7rem; color:var(--color-text-link);}
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a{display:inline-flex; align-items:baseline; gap:.7rem; text-decoration:none;}
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a:hover{text-decoration:underline;}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a svg{position:relative; top:.1rem;}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title{font-size:4rem;}
 
