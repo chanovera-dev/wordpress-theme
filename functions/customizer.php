@@ -58,6 +58,20 @@ function theme_colors() {
             .archive-list-widget li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/archive.svg');}
             .all .articles .article .tags a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/tag-fill.svg');}
 
+            /* iconos de navegación si hay un fondo detrás || descomentar si el hero en el frontpage tiene una imagen */
+            /* .home .menu-searchform-group ul li a[href*="contact"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/contact.svg');}
+            /* .home .menu-searchform-group ul li a[href*="tienda"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="tienda"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/shop-window.svg');}
+            /* .home .menu-searchform-group ul li a[href*="biography"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="biography"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bio.svg');}
+            /* .home .menu-searchform-group ul li a[href*="services"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services.svg');}
+            /* .home .menu-searchform-group ul li a[href*="testimonies"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies.svg');}
+            /* .home .menu-searchform-group ul li a[href*="blog"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog.svg');}
+
             /* iconos de redes sociales */
             :is(.footer-content .social) ul li a[href*="wa.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/whatsapp.svg');}
             :is(.footer-content .social) ul li a[href*="linkedin"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/linkedin.svg');}
