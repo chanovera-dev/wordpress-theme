@@ -70,3 +70,13 @@ function search_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'search_styles' );
+
+// Estilos para todos los artículos
+function single_styles() {
+    if ( is_single() ) {
+        wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/page.css' );
+        wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
+        wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'single_styles' );
