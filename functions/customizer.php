@@ -53,6 +53,11 @@ function theme_colors() {
             .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/testimonies.svg');}
             .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/blog.svg');}
 
+            /* widgets */
+            .categories ul li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/bookmark-star.svg');}
+            .archive-list-widget li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/archive.svg');}
+            .all .articles .article .tags a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/tag-fill.svg');}
+
             /* iconos de redes sociales */
             :is(.footer-content .social) ul li a[href*="wa.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/whatsapp.svg');}
             :is(.footer-content .social) ul li a[href*="linkedin"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/linkedin.svg');}
@@ -103,6 +108,11 @@ function theme_colors() {
                 .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services.svg');}
                 .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies.svg');}
                 .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog.svg');}
+
+                /* widgets */
+                .categories ul li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bookmark-star.svg');}
+                .archive-list-widget li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/archive.svg');}
+                .all .articles .article .tags a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/tag-fill.svg');}
 
                 /* iconos de redes sociales */
                 :is(.footer-content .social) ul li a[href*="wa.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/whatsapp.svg');}
