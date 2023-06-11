@@ -53,3 +53,6 @@ function get_breadcrumb() {
         echo "";
     }
 }
+
+// Estilos particulares
+require_once(get_template_directory() . '/functions/styles.php');

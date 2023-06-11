@@ -1,0 +1,45 @@
+/* encabezado de páginas */
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper{position:relative; background-color:var(--background-color-title-section);}
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title-section{position:relative; padding:2rem 0; display:grid; gap:1.7rem;}
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a{display:inline-flex; align-items:baseline; gap:.7rem; color:var(--color-text-link);}
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a svg{position:relative; top:.1rem;}
+:is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title{font-size:4rem;}
+
+/* ajustes específicos de artículos */
+.single-post main{padding-top:0;}
+
+/* ajustes específicos a cart y checkout */
+:is(.page-template-cart, .page-template-checkout) main .container:nth-child(2){background-color:var(--background-color-main);}
+
+/* color de texto de encabezado de artículos */
+:is(/*.home, */.single-post) .main-header.container{background-color:transparent;}
+:is(/*.home, */.single-post) .main-header.container .header-content :is(.site-brand a, .header-cart svg, .header-cart a){color:#fff;}
+:is(/*.home, */.single-post) .main-header.container .header-content :is(.ms-group_button .bars .bar1, .ms-group_button .bars .bar2, .ms-group_button .bars .bar3){background-color:#fff;}
+:is(/*.home, */.single-post) .main-header.container .header-content :is(.ms-group_button .bars.change .bar1, .ms-group_button .bars.change .bar2, .ms-group_button .bars.change .bar3){background-color:var(--color-text);}
+.single-post main .title-section-wrapper .breadcrumb a{color:#fff;}
+.single-post main .title-section-wrapper{padding-top:4.8rem;}
+.single-post main .title-section-wrapper .title-section{color:#fff;}
+.single-post main .title-section-wrapper .title-section .share-social p a{color:#fff;}
+
+/* encabezado woocommerce */
+.woocommerce-page .title-section .breadcrumb a:nth-child(1){display:inline-flex; align-items:baseline;}
+.woocommerce-page .title-section .breadcrumb a:nth-child(1):before{position:relative; padding:8.5px; top:.1rem; margin-right:.7rem; display:inline-block;}
+.woocommerce-page .title-section-wrapper .title-section .breadcrumb .woocommerce-breadcrumb a{gap:0;}
+
+/* sidebar */
+:is(.page, .single-post, .home, .archive, .search) .content-section aside{display:none;}
+
+@media(min-width:1024px){
+    /* encabezado de artículo */
+    .single-post main .title-section-wrapper{padding-top:4.4rem;}
+
+    /* color de texto en los menús */
+    :is(/*.home, */.single-post) .menu-searchform-group ul li a{color:#fff;}
+    :is(/*.home, */.single-post) .menu-searchform-group .searchform .searchform-wrapper svg.bi-search{color:#fff;}
+
+    /* contenido */
+    :is(.page, .single-post, .home, .archive, .search, .blog)  :is(.content-section, .comments-section){display:grid; grid-template-columns:1fr 330px; gap:0 7.5rem;}
+
+    /* sidebar */
+    :is(.page, .single-post, .home, .archive, .search, .blog) .content-section aside{display:grid; align-content:flex-start; gap:5rem;}  
+}
