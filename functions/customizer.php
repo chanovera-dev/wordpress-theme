@@ -1,5 +1,79 @@
 <?php
 
+function theme_customizer($wp_customize) {
+        // Datos personales
+        $wp_customize->add_section('personal__data', array(
+            'title' => __('Mis datos'),
+            'description' => __('Establece mis datos'), 
+            'priority' => 11,
+        ));
+            // foto
+            $wp_customize->add_setting('picture_me', array(
+                'default' => get_bloginfo('template_url') . '/assets/img/avatar-06-2023.png',
+            ));
+            $wp_customize->add_control(new WP_Customize_Image_control($wp_customize, 'picture_me', array(
+                'label' => 'Mi foto',
+                'section' => 'personal__data',
+            )));
+            // nombre
+            $wp_customize->add_setting('name', array(
+                'default' => __('Cristian Vera'),
+            ));
+            $wp_customize->add_control('name', array(
+                'label' => 'Mi nombre',
+                'section' => 'personal__data',
+            ));
+            // trabajo
+            $wp_customize->add_setting('ocupation', array(
+                'default' => __('Desarrollador Java'),
+            ));
+            $wp_customize->add_control('ocupation', array(
+                'label' => 'Ocupación',
+                'section' => 'personal__data',
+            ));
+            // bio corta
+            $wp_customize->add_setting('bio', array(
+                'default' => __('Informático de cabecera; haga sitios web con WordPress, PHP, JavaScript y mucho amor'),
+            ));
+            $wp_customize->add_control('bio', array(
+                'label' => 'Bio corta',
+                'section' => 'personal__data',
+                'type' => 'textarea',
+            ));
+            
+        // Datos de contacto
+        $wp_customize->add_section('contact__data', array(
+            'title' => __('Datos de contacto'),
+            'description' => __('Establece los datos de contacto'), 
+            'priority' => 12,
+        ));
+            // whatsapp number
+            $wp_customize->add_setting('whatsapp_number', array(
+                'default' => __('+529211243148'),
+            ));
+            $wp_customize->add_control('whatsapp_number', array(
+                'label' => 'WhatsApp',
+                'section' => 'contact__data',
+            ));
+            // phone number
+            $wp_customize->add_setting('phone_number', array(
+                'default' => __('9211243148'),
+            ));
+            $wp_customize->add_control('phone_number', array(
+                'label' => 'Primer teléfono de contacto',
+                'section' => 'contact__data',
+            ));
+            // email
+            $wp_customize->add_setting('email', array(
+                'default' => __('contacto@chanovera.com'),
+            ));
+            $wp_customize->add_control('email', array(
+                'label' => 'Email',
+                'section' => 'contact__data',
+            ));
+}
+add_action('customize_register', 'theme_customizer');
+
 function theme_colors() {
     ?>
         <style>
