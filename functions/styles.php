@@ -59,3 +59,14 @@ function page_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'page_styles' );
+
+// Estilos para la página búsqueda
+function search_styles() {
+    if ( is_search() ) {
+        wp_dequeue_style( 'wp-block-library' );
+        wp_enqueue_style( 'blog-styles', get_template_directory_uri() . '/assets/css/blog.css' );
+        wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
+        wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'search_styles' );
