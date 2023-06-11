@@ -11,16 +11,9 @@
         <header class="main-header container">
             <section class="header-content section">
                 <?php    
-                    if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-                        include(TEMPLATEPATH . '/parts/header/brand.php');
-                        include(TEMPLATEPATH . '/parts/header/menu-searchform-group.php');
-                        include(TEMPLATEPATH . '/parts/header/header-cart.php'); 
-                        include(TEMPLATEPATH . '/parts/header/ms-group-button.php');
-                    } else {
-                        include(TEMPLATEPATH . '/parts/header/brand.php');
-                        include(TEMPLATEPATH . '/parts/header/menu-searchform-group.php');
-                        include(TEMPLATEPATH . '/parts/header/ms-group-button.php');
-                    }     
+                    include(TEMPLATEPATH . '/parts/header/brand.php');
+                    include(TEMPLATEPATH . '/parts/header/menu-searchform-group.php');
+                    include(TEMPLATEPATH . '/parts/header/ms-group-button.php');  
                 ?>
             </section>
         </header>
