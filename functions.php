@@ -56,3 +56,111 @@ function get_breadcrumb() {
 
 // Estilos particulares
 require_once(get_template_directory() . '/functions/styles.php');
+
+// Registra los sidebars
+function widgets_areas(){
+    
+    register_sidebar(
+        array(
+            'name' => __('Blog Sidebar','renata'),
+            'id' => 'blog-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Article Sidebar','renata'),
+            'id' => 'article-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Page Sidebar','renata'),
+            'id' => 'page-sidebar',
+            'description' => __('Sidebar Widget Area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Biografía','letter'),
+            'id' => 'biography',
+            'description' => __('Sidebar Widget Area','letter'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Trabajos','letter'),
+            'id' => 'works',
+            'description' => __('Sidebar Widget Area','letter'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+    register_sidebar(
+        array(
+            'name' => __('Certificaciones','letter'),
+            'id' => 'certifications',
+            'description' => __('Sidebar Widget Area','letter'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+}
+add_action( 'widgets_init', 'widgets_areas' );
+
+// Agrega soporte para los siguientes componentes
+function theme_support(){
+    
+    // Carga el título de la página en el head
+    add_theme_support( 'title-tag' );
+
+    // Permite agregar un logo personalizado al sitio
+    add_theme_support( 'custom-logo' );
+    
+    // Activa las miniaturas en los artículos en portada
+    add_theme_support( 'post-thumbnails' );
+    
+}
+add_action( 'after_setup_theme', 'theme_support' );
+
+// Cambia la fecha a fecha relativa
+add_filter( 'get_the_date', 'time_ago_text', 10, 3 );
+
+function time_ago_text($date, $format, $post) {
+	$post_date = str_contains( current_filter(), 'modified' ) ?
+        strtotime( $post->post_modified ) :
+        strtotime( $post->post_date );
+
+	if ( (time() - YEAR_IN_SECONDS ) > $post_date || date(DATE_W3C, $post_date) === $date ){
+		return $date;
+	}
+
+	return sprintf( 'Publicado hace %s.', human_time_diff($post_date, current_time( 'U' ) ) );
+}
