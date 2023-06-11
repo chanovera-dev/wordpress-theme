@@ -30,3 +30,11 @@ function contact_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'contact_styles' );
+
+// Estilos para la página frontal
+function frontpage_styles() {
+    if ( is_front_page() ) {
+        
+    }
+}
+add_action( 'wp_enqueue_scripts', 'frontpage_styles' );

@@ -6,19 +6,25 @@
             <img class="thumbnail" src="<?php the_post_thumbnail_url( 'media' ); ?>" alt="Imagen del artículo" loading="lazy" width="300" height="200">
         <?php endif; ?>
 
-        <?php
-            include(TEMPLATEPATH . '/parts/widgets/author.php');
-        ?>
-            <a class="permalink" href="<?php the_permalink() ?>" target="_blank">
-                <?php the_title( '<h3 class="article__title">', '</h3>' ); ?>
-            </a>
-        <?php
-            the_excerpt();
-            include(TEMPLATEPATH . '/parts/widgets/publicate-date.php');
+        <div class="article__content">
+            <?php
+                include(TEMPLATEPATH . '/parts/widgets/author.php');
+            ?>
+                <?php echo the_category(); ?>
+                <a class="permalink" href="<?php the_permalink() ?>" target="_blank">
+                    <?php the_title( '<h3 class="article__title">', '</h3>' ); ?>
+                </a>
+            <?php
+                the_excerpt();
+                include(TEMPLATEPATH . '/parts/widgets/publicate-date.php');
+            ?>
+        </div>
+
+        <?php 
             if ( has_tag() == false ) :
             else:
                 include(TEMPLATEPATH . '/parts/widgets/tags.php');
             endif;
         ?>
-
+ 
 </article>
