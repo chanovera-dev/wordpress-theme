@@ -6,7 +6,7 @@
 .all .articles .article .article__content > *{margin-bottom:2rem;}
 .all .articles .article .article__content .post-categories{margin:0; padding:0; list-style:none; font-family:monospace;}
 .all .articles .article .article__content .post-categories li a{color:var(--color-title); text-decoration:none;}
-.all .articles .article .article__content .permalink{text-decoration:none;}
+.all .articles .article .article__content .permalink{text-decoration:none; display:inline-flex;}
 .all .articles .article .article__content .permalink:focus{outline:none; box-shadow:none;}
 .all .articles .article .article__content .permalink:focus .article__title{box-shadow:var(--box-shadow-focus);}
 .all .articles .article .article__content .article__title{margin-bottom:1.7rem; font-weight:600; border-radius:.3rem;}
