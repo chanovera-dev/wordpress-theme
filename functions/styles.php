@@ -38,3 +38,14 @@ function frontpage_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'frontpage_styles' );
+
+// Estilos para la página blog
+function blog_styles() {
+    if ( is_home() or is_page_template('home.php') ) {
+        wp_dequeue_style( 'wp-block-library' );
+        wp_enqueue_style( 'blog-styles', get_template_directory_uri() . '/assets/css/blog.css' );
+        wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
+        wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'blog_styles' );
