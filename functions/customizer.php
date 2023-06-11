@@ -45,6 +45,18 @@ function theme_colors() {
                 
             }
 
+            /* cabecera */
+            .main-header{border-bottom:1px solid rgba(0, 0, 0, .09);}
+            @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
+                .scroll-down .main-header,
+                .scroll-up .main-header{background:rgba(246, 246, 246, .8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+            /*  .home.scroll-down .main-header,
+                .home.scroll-up .main-header, */
+                .single-post.scroll-down .main-header,
+                .single-post.scroll-up .main-header{background:rgba(0, 0, 0, .8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                .single-post main .title-section-wrapper .background-blur{position:absolute; left:0; top:0; right:0; bottom:0; background:var(--linear-gradient); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+            }
+
             /* iconos de navegación de la cabecera */
             .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/contact.svg');}
             .menu-searchform-group ul li a[href*="tienda"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/shop-window.svg');}
@@ -113,6 +125,14 @@ function theme_colors() {
                     --background-color-input-contact-section:#2c2a29;
                     --border-color-contact-section:#1d1919;
                     --color-contact-section:#dfafb5;
+                }
+
+                /* cabecera */
+                .main-header{border-bottom:1px solid rgba(255, 255, 255, .09);}
+                @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
+                    .scroll-down .main-header,
+                    .scroll-up .main-header,
+                    .testimonies-cards{background:rgba(0, 0, 0, .8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                 }
 
                 /* iconos de navegación de la cabecera */
