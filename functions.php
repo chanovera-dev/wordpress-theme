@@ -164,3 +164,7 @@ function time_ago_text($date, $format, $post) {
 
 	return sprintf( 'Publicado hace %s.', human_time_diff($post_date, current_time( 'U' ) ) );
 }
+
+// Delimita el tamaño del excerpt 
+function limite_excerpt($limite) { return 15; }
+add_filter ('excerpt_length', 'limite_excerpt', 999);
