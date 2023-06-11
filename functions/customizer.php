@@ -15,9 +15,18 @@ function theme_colors() {
                 --background-color-main:#fff;
                 --background-color-header:#f6f6f6;
 
+                /* encabezado */
+                --background-color-title-section:#f6f6f6;
+                --background-color-current-lang:#c0606c;
+                --border-color-lang:#c0606c;
+                --color-lang:#c0606c;
+
                 /* formularios */
                 --border-color-input:#ddd;
                 --background-color-input:#fff;
+
+                /* sección de contacto */
+                --background-color-contact-section:#F8E5E2;
                 
             }
 
@@ -46,9 +55,15 @@ function theme_colors() {
                     --background-color-main:#111;
                     --background-color-header:#000;
 
+                    /* encabezados */
+                    --background-color-title-section:#000;
+
                     /* formularios */
                     --border-color-input:#333;
                     --background-color-input:#1d1d1f;
+
+                    /* sección de contacto */
+                    --background-color-contact-section:#151312;
                 }
 
                 /* iconos de navegación de la cabecera */
