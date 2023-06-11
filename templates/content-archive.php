@@ -1,7 +1,7 @@
 <article class="article">
 
         <?php if ( has_post_thumbnail() == false ) : ?>
-            <img class="thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog.webp" alt="Imagen del artículo" loading="lazy" width="300" height="200">
+            <img class="thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog.webp" alt="Imagen del artículo" loading="lazy" width="300" height="200">
         <?php else: ?>
             <img class="thumbnail" src="<?php the_post_thumbnail_url( 'media' ); ?>" alt="Imagen del artículo" loading="lazy" width="300" height="200">
         <?php endif; ?>
