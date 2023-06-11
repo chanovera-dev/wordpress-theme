@@ -25,6 +25,8 @@ add_action( 'wp_enqueue_scripts', 'archive_styles' );
 function contact_styles() {
     if ( is_page_template('contact.php') ) {
         wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contacto.css' );
+        wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
+        wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'contact_styles' );
