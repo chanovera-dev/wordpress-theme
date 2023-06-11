@@ -27,6 +27,9 @@ function theme_colors() {
 
                 /* sección de contacto */
                 --background-color-contact-section:#F8E5E2;
+                --background-color-input-contact-section:#faefed;
+                --border-color-contact-section:#F4D8D3;
+                --color-contact-section:#c0606c;
                 
             }
 
@@ -64,6 +67,9 @@ function theme_colors() {
 
                     /* sección de contacto */
                     --background-color-contact-section:#151312;
+                    --background-color-input-contact-section:#2c2a29;
+                    --border-color-contact-section:#1d1919;
+                    --color-contact-section:#dfafb5;
                 }
 
                 /* iconos de navegación de la cabecera */
