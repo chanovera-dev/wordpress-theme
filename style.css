@@ -77,6 +77,21 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 .wpcf7-submit{-moz-appearance:none; -webkit-appearance:none; display:inline-flex; align-items:center; margin-left:auto; height:4rem; padding:0 2rem; border-radius:.8rem; border:1px solid var(--background-color-button); background-color:var(--background-color-button); color:#fff; font-size:1.76rem; font-family:var(--wp--preset--font-family--system-font); transition:all .25s ease;}
 .wpcf7-submit:focus{outline:none; box-shadow:var(--color-emphasis);}
 
+/* navegación de páginas */
+.navigation.pagination .screen-reader-text{display:none;}
+.navigation.pagination{display:grid; grid-gap:3rem; text-align:center; grid-column:1/-1;}
+.woocommerce-pagination{grid-column:1/-1;}
+.navigation.pagination .nav-links,
+.woocommerce-pagination .page-numbers{display:flex; gap:1rem; justify-content:center;}
+.navigation.pagination .nav-links .page-numbers,
+.woocommerce-pagination .page-numbers li .page-numbers{display:grid; place-content:center; width:4.3rem; height:4.3rem; color:var(--color-text); border:1px solid var(--border-color-input); box-sizing:border-box; border-radius:.3rem; transition:all .25s ease;}
+.navigation.pagination .nav-links .page-numbers.current,
+.woocommerce-pagination .page-numbers li .page-numbers.current{background-color:var(--color-title); border:1px solid var(--color-title); color:#fff;}
+.navigation.pagination .nav-links .page-numbers:hover,
+.woocommerce-pagination .page-numbers li .page-numbers:hover{background-color:var(--color-title); border:1px solid var(---color-title); color:#fff;}
+:is(.navigation.pagination .nav-links, .woocommerce-pagination .page-numbers) :is(.page-numbers.prev, .page-numbers.next){width:auto; padding:0 3rem;}
+:is(.navigation.pagination .nav-links, .woocommerce-pagination .page-numbers) :is(.page-numbers.prev, .page-numbers.next):hover{border:1px solid var(--color-title);}
+
 /* pie de página */
 #main-footer{background-color:var(--background-color-footer); color:var(--color-text-footer); overflow:hidden;}
 .footer-content{padding:4rem 0; display:grid;gap:3rem; text-align:center;}
