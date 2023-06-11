@@ -25,6 +25,18 @@ function theme_colors() {
                 --border-color-input:#ddd;
                 --background-color-input:#fff;
 
+                /* artículos */
+                --color-title:#c12927;
+                --color-tag:#957772;
+                --color-tag-hover:#c0606c;
+                --background-color-tag:#F4D8D3;
+                    /* comentarios */
+                    --background-color-contact-section:#F8E5E2;
+                    --background-color-input-contact-section:#faefed;
+                    --background-color-button:#c0606c;
+                    --border-color-contact-section:#F4D8D3;
+                    --color-contact-section:#c0606c;
+
                 /* sección de contacto */
                 --background-color-contact-section:#F8E5E2;
                 --background-color-input-contact-section:#faefed;
@@ -64,6 +76,18 @@ function theme_colors() {
                     /* formularios */
                     --border-color-input:#333;
                     --background-color-input:#1d1d1f;
+
+                    /* artículos */
+                    --color-tag-hover:#c0606c;
+                    --background-color-tag:#49403f;
+                        /* comentarios */
+                        --background-color-contact-section:#151312;
+                        --background-color-input-contact-section:#2c2a29;
+                        --border-color-contact-section:#1d1919;
+                        --color-contact-section:#dfafb5;
+
+                    /* frontpage blog */
+                    --background-color-frontpage-blog:#111;
 
                     /* sección de contacto */
                     --background-color-contact-section:#151312;
