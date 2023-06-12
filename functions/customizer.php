@@ -76,7 +76,7 @@ function theme_customizer($wp_customize) {
                 'default' => __('contacto@chanovera.com'),
             ));
             $wp_customize->add_control('email_office', array(
-                'label' => 'Email',
+                'label' => 'Email de oficina',
                 'section' => 'contact__data',
             ));
 }
