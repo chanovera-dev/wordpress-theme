@@ -97,7 +97,8 @@ function theme_colors() {
                 --background-color-main:#fff;
                 --background-color-header:#f6f6f6;
                 --linear-gradient:linear-gradient(-45deg, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
-
+                --wp--preset--font-size--small: clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.24), 1.4rem);
+                
                 /* encabezado */
                 --background-color-title-section:#f6f6f6;
                 --background-color-current-lang:#c0606c;
