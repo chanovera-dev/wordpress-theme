@@ -8,6 +8,7 @@
 :is(.page, .single) .content-section .content > :is(ol, ul){list-style:disc; padding-left:1.5rem;}
 :is(.page, .single) .content-section .content > .post-thumbnail{width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:.4rem;}
 :is(.page, .single) .content-section .content .wp-block-code code{background-color:var(--background-color-title-section); border:1px solid var(--border-color-input); padding:2rem; border-radius:.8rem;}
+:is(.page, .single) .content-section .content .wp-block-code.code-with-comment{gap:0;}
 
 /* comentarios */
 .single .comments-section-wrapper{background-color:var(--background-color-contact-section);}
