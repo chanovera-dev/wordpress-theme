@@ -65,7 +65,8 @@ address ul li:nth-child(n+5){padding-left:2.7rem;}
 /* artículos más recientes */
 .latest-posts_widget__article{display:grid; grid-template-columns:1fr 1fr; align-items:flex-start;}
 .latest-posts_widget__article .thumbnail{width:15rem; height:9rem; object-fit:cover; border-radius:.4rem;}
-.latest-posts_widget__article .content .permalink{box-shadow:none;}
+.latest-posts_widget__article .content .permalink{box-shadow:none; text-decoration:none;}
+.latest-posts_widget__article .content .permalink:hover{text-decoration:underline;}
 .latest-posts_widget__article .content .permalink__title{font-weight:600; color:var(--color-title); display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; border-radius:.3rem; transition:all .25s ease;}
 .latest-posts_widget__article .content .permalink:focus .permalink__title{box-shadow:var(--box-shadow-focus);}
 .latest-posts_widget__article .content p{font-size:1.4rem; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;}
