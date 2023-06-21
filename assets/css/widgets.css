@@ -19,6 +19,7 @@ li.categories{font-size:var(--wp--preset--font-size--x-large); font-weight:600; 
 /* tags links customize */
 .tags-widget a{position:relative; color:var(--color-text-link); text-decoration:none;}
 .tags-widget a:hover{text-decoration:underline;}
+.tags-widget a:before{content:'#';}
 .tags-widget .tags{display:inline-flex; gap:0 1.5rem; flex-wrap:wrap;}
 
 /* contenedor de widget */
