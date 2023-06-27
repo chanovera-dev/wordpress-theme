@@ -46,7 +46,7 @@ input[type=tel]:focus,
 textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:var(--box-shadow-input-focus);}
 
 /* cabecera */
-.main-header + #wpadminbar{margin-top:32px;}
+#wpadminbar ~ .main-header{margin-top:32px;}
 .main-header{position:fixed; top:0; width:100%; z-index:5; backface-visibility:hidden; transform:translate3d(0, 0, 0); background-color:var(--background-color-header); transition:all .25s ease-in-out;}
 .main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:4.8rem;}
     /* scroll actions */    
