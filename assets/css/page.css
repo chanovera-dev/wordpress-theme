@@ -2,9 +2,7 @@
 :is(.page, .single):not(.page-template-front-page) main .container :is(.content-section, .comments-section){padding:2rem 0;}
 .single main .container .comments-section{display:grid; gap:4rem 7.5rem;}
 :is(.page, .single) .content-section .content > *:not(:last-child){margin-bottom:1.7rem;}
-:is(.page, .single) .content-section .content > h2:not(:first-child){padding-top:1.7rem;}
-:is(.page, .single) .content-section .content > h2{color:var(--color-title);}
-:is(.page, .single) .content-section .content > h3{color:var(--color-title);}
+:is(.page, .single) .content-section .content > h2:not(:first-child){padding-top:2.4rem;}
 :is(.page, .single) .content-section .content > :is(ol, ul){list-style:disc; padding-left:1.5rem;}
 :is(.page, .single) .content-section .content > .post-thumbnail{width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:.7rem;}
 :is(.page, .single) .content-section .content .wp-block-code code{background-color:var(--background-color-title-section); border:1px solid var(--border-color-input); padding:2rem; border-radius:.8rem;}
