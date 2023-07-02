@@ -21,10 +21,13 @@
         </div>
 
         <?php 
+        
+            /*
             if ( has_tag() == false ) :
             else:
                 include(TEMPLATEPATH . '/parts/widgets/tags.php');
             endif;
+            */
         ?>
  
 </article>
