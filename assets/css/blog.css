@@ -9,7 +9,7 @@
 .all .articles .article .article__content .permalink{text-decoration:none; display:inline-flex; transition:all ease .3s;}
 .all .articles .article .article__content .permalink:focus{outline:none; box-shadow:none;}
 .all .articles .article .article__content .permalink:focus .article__title{box-shadow:var(--box-shadow-focus);}
-.all .articles .article .article__content .article__title{margin-bottom:1.7rem; font-weight:600; border-radius:.3rem;}
+.all .articles .article .article__content .article__title{font-weight:600; border-radius:.3rem;}
 .all .articles .article .tags{position:relative; z-index:1;}
 .all .articles .article .tags a{text-decoration:none;}
 .all .articles .article .tags a:hover{text-decoration:underline;}
