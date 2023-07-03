@@ -96,7 +96,7 @@ function theme_colors() {
                 --background-color-body:#f6f6f6;
                 --background-color-main:#fff;
                 --background-color-header:#f6f6f6;
-                --linear-gradient:linear-gradient(-45deg, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+                --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.83));
                 
                 /* encabezado */
                 --background-color-title-section:#f6f6f6;
