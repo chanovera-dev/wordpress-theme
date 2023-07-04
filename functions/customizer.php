@@ -98,6 +98,10 @@ function theme_colors() {
                 --background-color-header:#f6f6f6;
                 --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73));
                 
+                /* código incrustado */
+                --color-neutral-200: 228, 228, 231;
+                --color-neutral-700: 63, 63, 70;
+
                 /* encabezado */
                 --background-color-title-section:#f6f6f6;
                 --background-color-current-lang:#c0606c;
