@@ -101,6 +101,7 @@ function theme_colors() {
                 /* código incrustado */
                 --color-neutral-200: 228, 228, 231;
                 --color-neutral-700: 63, 63, 70;
+                
 
                 /* encabezado */
                 --background-color-title-section:#f6f6f6;
