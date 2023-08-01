@@ -168,3 +168,8 @@ function time_ago_text($date, $format, $post) {
 // Delimita el tamaño del excerpt 
 function limite_excerpt($limite) { return 15; }
 add_filter ('excerpt_length', 'limite_excerpt', 999);
+
+// activa woocommerce
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+    require_once(get_template_directory() . '/functions/woocommerce.php');
+} else {}   
