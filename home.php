@@ -8,7 +8,7 @@
         
         <div class="section content-section all">
 
-            <div class="articles">
+            
                 <?php
                 
                     if ( have_posts() ){
@@ -16,8 +16,12 @@
                         while( have_posts() ){
                             
                             the_post();
+
+                            echo '<div class="articles">';
                             
                             get_template_part( 'templates/content', 'archive' );
+
+                            echo '</div>';
                             
                         }
                         the_posts_pagination();
@@ -26,7 +30,7 @@
                         echo '<p>' . __('Actualmente no hay artículos en este blog', 'renata') . '</p>';
                     }
                 ?>
-            </div>
+            
             
             <?php 
             
