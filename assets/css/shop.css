@@ -1,6 +1,6 @@
 /* contenedor */
 main .container .section.archive-products{padding:4rem 0; display:grid; grid-template-columns:1fr 1fr; gap:2rem;}
-main .container .section.archive-products:has(article:hover) > article:not(:hover){opacity:.25; filter:blur(.5rem);}
+main .container .section.archive-products:has(article:hover) > article:not(:hover){opacity:.25;}
     /* artículo */
     article{display:grid; gap:1.7rem; grid-template-rows:1fr auto auto; transition:all .3s ease;}
     article{color:var(--color-text);}
