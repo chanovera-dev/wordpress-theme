@@ -22,7 +22,7 @@ main .container .section.archive-products:has(article:hover) > article:not(:hove
         /* agregar al carrito */
         .product_type_simple{display:inline-flex; align-items:center; gap:.7rem;}
         .product_type_simple:before{position:relative; padding:7px; display:inline-block;}
-        .product_type_simple.added{font-size:0;}
+        .product_type_simple.added{font-size:0; gap:0;}
         /* variation swatches */
         .cfvsw_variations_form{order:2;}
         .cfvsw-shop-variations tbody tr:last-child{display:none;}
