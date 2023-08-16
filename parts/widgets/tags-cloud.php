@@ -30,7 +30,7 @@ $args = array(
 $query = new WP_Query( $args );
 
 if ( function_exists( 'wp_tag_cloud' ) && $query->have_posts() ) :
-    echo '<p>Hay etiquetas</p>';
+    echo '<h3 class="widget-title">' . __('Nube de etiquetas', 'renata') . '</h3>';
 else:
 endif;
 
