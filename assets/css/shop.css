@@ -11,6 +11,8 @@ main .container .section.archive-products:has(article:hover) > article:not(:hove
         article .wp-post-image{width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:.4rem;}
         /* tamaño de fuente */
         article :is(.title, .price, .excerpt-wrapper, .wp-block-button, .wp-element-button, .added_to_cart, .link-to-product){font-size:1.4rem;}
+        /* título */
+        article .title{font-weight:bold;}
         /* calificación */
         article .star-rating{order:3; display:flex; gap:.7rem;}
         article .star-rating svg{color:gold;}
