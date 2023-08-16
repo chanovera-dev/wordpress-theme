@@ -1,25 +1,25 @@
-<?php get_header(); ?>
+<?php 
+    get_header();
 
-<main id="main">
+    echo '<main id="main">';
 
-    <?php include(TEMPLATEPATH . '/parts/sections/title-woocommerce.php'); ?>
+    include(TEMPLATEPATH . '/parts/sections/title-woocommerce.php');
 
-    <?php
-
-        if ( have_posts() ){
+    if ( have_posts() ){
+        
+        while( have_posts() ){
             
-            while( have_posts() ){
-                
-                the_post();
-                
-                get_template_part( 'templates/content', 'product' );
-                
-            }
+            the_post();
             
-        } else {
-            echo '<p>' . __('Actualmente no hay artículos en esta tienda', 'renata') . '</p>';
+            get_template_part( 'templates/content', 'product' );
+            
         }
-    ?>
-</main>
+        
+    } else {
+        echo '<p>' . __('Actualmente no hay artículos en esta tienda', 'renata') . '</p>';
+    }
 
-<?php get_footer(); ?>
+    echo '</main>';
+
+    get_footer();
+?>
