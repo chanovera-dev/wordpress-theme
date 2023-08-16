@@ -21,6 +21,8 @@
                         }
                         the_posts_pagination();
                         
+                    } else {
+                        echo '<p>No hay artículos</p>';
                     }
                 ?>
             </div>
