@@ -10,4 +10,6 @@
             'exclude'   => 6
         ) ); ?>
     </div>
+<?php else: ?>
+
 <?php endif; ?>
