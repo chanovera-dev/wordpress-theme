@@ -20,7 +20,7 @@
         }
         
     } else {
-        echo '<section class="container"><div class="section archive-products">' . '<p>' . __('Actualmente no hay artículos en esta tienda', 'renata') . '</p>' . '</div>';
+        echo '<section class="container"><div class="section">' . '<p>' . __('Actualmente no hay artículos en esta tienda', 'renata') . '</p>' . '</div>';
     }
 
     echo '</section></main>';
