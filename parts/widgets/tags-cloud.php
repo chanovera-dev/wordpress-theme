@@ -25,7 +25,6 @@ if ( function_exists( 'wp_tag_cloud' ) && $query->have_posts() ) :
         'exclude'   => 6
     ) );
     echo '</div>';
-else:
 endif;
 
 wp_reset_postdata();
