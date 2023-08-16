@@ -15,7 +15,9 @@
 <?php endif; ?>
 */
 
-if ( function_exists( 'wp_tag_cloud' ) && wp_count_terms( 'post_tag' ) > 0 ) :
+$tags = get_terms( 'post_tag', array( 'hide_empty' => false ) );
+
+if ( function_exists( 'wp_tag_cloud' ) && ! empty( $tags ) ) :
     echo '<p>Hay etiquetas</p>';
 else:
     echo '<p>No hay etiquetas</p>';
