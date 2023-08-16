@@ -16,6 +16,8 @@
                 
             }
             
+        } else {
+            echo '<p>' . __('Actualmente no hay artículos en esta tienda', 'renata') . '</p>';
         }
     ?>
 </main>

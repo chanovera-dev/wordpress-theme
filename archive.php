@@ -22,7 +22,7 @@
                         the_posts_pagination();
                         
                     } else {
-                        echo '<p>No hay artículos</p>';
+                        echo '<p>' . __('No se encontró ninguna coincidencia', 'renata') . '</p>';
                     }
                 ?>
             </div>

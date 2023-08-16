@@ -21,6 +21,8 @@
                         }
                         the_posts_pagination();
                         
+                    } else {
+                        echo '<p>' . __('Actualmente no hay artículos en este blog', 'renata') . '</p>';
                     }
                 ?>
             </div>
