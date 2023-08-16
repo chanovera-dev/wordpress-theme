@@ -22,7 +22,7 @@
                         the_posts_pagination();
                         
                     } else {
-                        echo '<p>No hay artículos</p>';
+                        echo '<p>' . __('Actualmente no hay artículos en este blog', 'renata') . '</p>';
                     }
                 ?>
             </div>
