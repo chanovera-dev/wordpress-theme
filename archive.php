@@ -1,48 +1,44 @@
-<?php get_header(); ?>
-
-<main id="main">
-
-    <?php include (TEMPLATEPATH. '/parts/sections/title-archive.php'); ?> 
+<?php
     
-    <section class="container">
-        
-        <div class="section content-section all">
+    get_header();
 
-            <div class="articles">
-                <?php
-                    if ( have_posts() ){
-                        
-                        while( have_posts() ){
-                            
-                            the_post();
-                            
-                            get_template_part( 'templates/content', 'archive' );
-                            
-                        }
-                        the_posts_pagination();
-                        
-                    } else {
-                        echo '<p>' . __('No se encontró ninguna coincidencia', 'renata') . '</p>';
-                    }
-                ?>
-            </div>
-            
-            <?php 
-            
-                $post_count = wp_count_posts();
-
-                if ( $post_count->publish > 0 ) :
-
-                    include(TEMPLATEPATH . '/parts/sidebars/blog.php');
-
-                endif;
-
-            ?>
-
-        </div>
-            
-    </section>
+    echo '<main id="main">';
     
-</main>
+    include (TEMPLATEPATH. '/parts/sections/title-archive.php');
+    
+    echo '<section class="container"><div class="section content-section all">';   
+            
+        if ( have_posts() ){
+            
+            while( have_posts() ){
+                
+                the_post();
 
-<?php get_footer(); ?>
+                echo '<div class="articles">';
+                
+                get_template_part( 'templates/content', 'archive' );
+
+                echo '</div>';
+                
+            }
+            the_posts_pagination();
+            
+        } else {
+            echo '<p>' . __('No se encontró ninguna coincidencia', 'renata') . '</p>';
+        }
+    
+        $post_count = wp_count_posts();
+
+        if ( $post_count->publish > 0 ) :
+
+            include(TEMPLATEPATH . '/parts/sidebars/blog.php');
+
+        endif;
+
+    echo '</div></section>';
+    
+    echo '</main>';
+
+    get_footer(); 
+
+?>
