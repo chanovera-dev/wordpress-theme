@@ -1,6 +1,8 @@
-<?php /* Template name: Página de contacto */ get_header(); ?>
-<main id="main">
-    <?php include(TEMPLATEPATH . '/parts/sections/title-contact.php'); ?> 
-    <?php include(TEMPLATEPATH . '/parts/sections/contact-group.php'); ?> 
-</main>
-<?php get_footer(); ?>
+<?php /* Template name: Página de contacto */ 
+    get_header();
+    echo '<main id="main">';
+    include(TEMPLATEPATH . '/parts/sections/title-contact.php');
+    include(TEMPLATEPATH . '/parts/sections/contact-group.php');
+    echo '</main>';
+    get_footer();
+?>
