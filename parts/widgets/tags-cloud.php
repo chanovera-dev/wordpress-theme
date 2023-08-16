@@ -32,7 +32,6 @@ $query = new WP_Query( $args );
 if ( function_exists( 'wp_tag_cloud' ) && $query->have_posts() ) :
     echo '<p>Hay etiquetas</p>';
 else:
-    echo '<p>No hay etiquetas</p>';
 endif;
 
 wp_reset_postdata();
