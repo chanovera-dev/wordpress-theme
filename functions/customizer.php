@@ -180,6 +180,7 @@ function theme_colors() {
 
             /* iconos del loop de woocommerce */
             article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-plus.svg');}
+            article .button-cart-wrapper .product_type_simple.added:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-check.svg');}
 
             @media(prefers-color-scheme:dark){
                 :root{
