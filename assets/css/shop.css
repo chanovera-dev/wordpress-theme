@@ -8,7 +8,7 @@ main .container .section.archive-products:has(article:hover) > article:not(:hove
         /* orden */
         article .price{order:4;}
         /* imagen */
-        article .wp-post-image{width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:.4rem;}
+        article .wp-post-image{width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:.4rem;}
         /* tamaño de fuente */
         article :is(.title, .price, .excerpt-wrapper, .wp-block-button, .wp-element-button, .added_to_cart, .link-to-product){font-size:1.4rem;}
         /* calificación */
