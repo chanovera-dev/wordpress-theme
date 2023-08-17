@@ -7,14 +7,14 @@
     include (TEMPLATEPATH. '/parts/sections/title-archive.php');
     
     echo '<section class="container"><div class="section content-section all">';   
-            
+        
         if ( have_posts() ){
+
+            echo '<div class="articles">';
             
             while( have_posts() ){
                 
                 the_post();
-
-                echo '<div class="articles">';
                 
                 get_template_part( 'templates/content', 'archive' );
 
@@ -22,6 +22,8 @@
                 
             }
             the_posts_pagination();
+
+            echo '<div class="articles">';
             
         } else {
             echo '<p>' . __('No se encontró ninguna coincidencia', 'renata') . '</p>';
