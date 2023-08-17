@@ -2,9 +2,9 @@
 
     <?php include(TEMPLATEPATH . '/parts/sections/title-article.php'); ?>
 
-    <section class="container">
+    <section class="container main-content">
 
-        <div class="section main-content content-section">
+        <div class="section content-section">
 
             <div class="content">
 
