@@ -28,6 +28,7 @@ img{display:block; height:auto;}
 
 /* ajustes específicos */
 main{padding-top:4.8rem; background-color:var(--background-color-main);}
+.main-container{background-color:var(--background-color-main-container);}
 main .container .section{padding:4rem 0;}
 
 /* formularios */
