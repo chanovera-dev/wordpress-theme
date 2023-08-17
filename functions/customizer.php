@@ -93,18 +93,10 @@ function theme_colors() {
                 --color-emphasis:#c12927;
                 --box-shadow-focus:0 0 0 .3rem #c0606c;
                 --box-shadow-input-focus:0 0 0 .3rem rgba(192, 96, 108, 0.4);
-                --box-shadow-main-content:0 .005em 0 #ccc, 
-                                            0 .01em 0 #c9c9c9, 
-                                            0 .015em 0 #bbb, 
-                                            0 .02em 0 #b9b9b9, 
-                                            0 .025em 0 #aaa, 
-                                            0 .03em .005em rgba(0,0,0,.1), 
-                                            0 0 .025em rgba(0,0,0,.1), 
-                                            0 .005em .015em rgba(0,0,0,.3), 
-                                            0 .015em .025em rgba(0,0,0,.2), 
-                                            0 .025em .05em rgba(0,0,0,.25), 
-                                            0 .05em .05em rgba(0,0,0,.2), 
-                                            0 .1em .1em rgba(0,0,0,.15);;
+                --box-shadow-main-content:  0 4px  4px  rgba(0, 0, 0, .2),
+                                            0 4px  8px  rgba(0, 0, 0, .16),
+                                            0 16px  16px  rgba(0, 0, 0, .18),
+                                            0 24px  64px  rgba(0, 0, 0, .25);
                 --background-color-body:#f6f6f6;
                 --background-color-main:#f6f6f6;
                 --background-color-main-content:#fff;
