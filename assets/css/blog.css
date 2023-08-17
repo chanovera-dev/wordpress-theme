@@ -4,8 +4,9 @@
 .all .articles .article .thumbnail{position:absolute; object-fit:cover; border-radius:.8rem; z-index:0; opacity:.25; transition:all .3s ease;}
 .all .articles .article .article__content{position:relative; z-index:1;}
 .all .articles .article .article__content > *{margin-bottom:2rem;}
-.all .articles .article .article__content .post-categories{margin:0; padding:0; list-style:none; font-family:monospace;}
-.all .articles .article .article__content .post-categories li a{color:var(--color-title); text-decoration:none;}
+.all .articles .article .article__content .post-categories{margin:0; padding:0; list-style:none; font-family:monospace; display:inline-flex; gap:.7rem;}
+.all .articles .article .article__content .post-categories li a{color:var(--color-title); text-decoration:none; display:inline-flex; align-items:center; gap:.7rem;}
+.all .articles .article .article__content .post-categories li a:before{position:relative; padding:8.5px; display:inline-block;}
 .all .articles .article .article__content .permalink{text-decoration:none; display:inline-flex; transition:all ease .3s;}
 .all .articles .article .article__content .permalink:focus{outline:none; box-shadow:none;}
 .all .articles .article .article__content .permalink:focus .article__title{box-shadow:var(--box-shadow-focus);}
