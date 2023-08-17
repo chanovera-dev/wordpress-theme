@@ -1,8 +1,8 @@
-<main id="main">
+<main id="main" class="main-content">
 
     <?php include(TEMPLATEPATH . '/parts/sections/title-article.php'); ?>
 
-    <section class="container main-content">
+    <section class="container">
 
         <div class="section content-section">
 
