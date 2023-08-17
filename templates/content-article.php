@@ -4,7 +4,7 @@
 
     <section class="container">
 
-        <div class="section content-section">
+        <div class="section main-content content-section">
 
             <div class="content">
 
