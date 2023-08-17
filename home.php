@@ -6,7 +6,7 @@
     
     include (TEMPLATEPATH. '/parts/sections/title-blog.php');
     
-    echo '<section class="container main-container"><div class="section content-section all">';   
+    echo '<section class="container main-content"><div class="section content-section all">';   
             
         if ( have_posts() ){
             
