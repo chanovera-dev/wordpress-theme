@@ -6,22 +6,22 @@
     
     include (TEMPLATEPATH. '/parts/sections/title-archive.php');
     
-    echo '<section class="container"><div class="section content-section all">';   
+    echo '<section class="container main-content"><div class="section content-section all">';   
             
         if ( have_posts() ){
             
+            echo '<div class="articles">';
+
             while( have_posts() ){
                 
                 the_post();
-
-                echo '<div class="articles">';
-                
+   
                 get_template_part( 'templates/content', 'archive' );
-
-                echo '</div>';
-                
+    
             }
             the_posts_pagination();
+
+            echo '</div>';
             
         } else {
             echo '<p>' . __('No se encontró ninguna coincidencia', 'renata') . '</p>';

@@ -1,4 +1,4 @@
-<?php /* Template name: Posts */
+<?php
     
     get_header();
 
@@ -6,25 +6,25 @@
     
     include (TEMPLATEPATH. '/parts/sections/title-search.php');
     
-    echo '<section class="container"><div class="section content-section all">';   
+    echo '<section class="container main-content"><div class="section content-section all">';   
             
         if ( have_posts() ){
             
+            echo '<div class="articles">';
+
             while( have_posts() ){
                 
                 the_post();
-
-                echo '<div class="articles">';
-                
+   
                 get_template_part( 'templates/content', 'archive' );
-
-                echo '</div>';
-                
+    
             }
             the_posts_pagination();
+
+            echo '</div>';
             
         } else {
-            echo '<p>' . __('No se encontró ninguna coincidencia con la búsqueda', 'renata') . '</p>';
+            echo '<p>' . __('No se encontró ninguna coincidencia en la búsqueda', 'renata') . '</p>';
         }
     
         $post_count = wp_count_posts();
