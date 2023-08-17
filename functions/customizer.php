@@ -96,7 +96,7 @@ function theme_colors() {
                 --box-shadow-main-content:  0 4px  4px  rgba(0, 0, 0, .1),
                                             0 4px  8px  rgba(0, 0, 0, .08),
                                             0 16px  16px  rgba(0, 0, 0, .09),
-                                            0 24px  64px  rgba(0, 0, 0, .12);
+                                            0 24px  64px  rgba(0, 0, 0, .08);
                 --background-color-body:#f6f6f6;
                 --background-color-main:#f6f6f6;
                 --background-color-main-content:#fff;
