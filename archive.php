@@ -7,10 +7,10 @@
     include (TEMPLATEPATH. '/parts/sections/title-archive.php');
     
     echo '<section class="container"><div class="section content-section all">';   
-        
-        if ( have_posts() ){
+    
+    echo '<div class="articles">';
 
-            echo '<div class="articles">';
+        if ( have_posts() ){         
             
             while( have_posts() ){
                 
@@ -22,13 +22,12 @@
                 
             }
             the_posts_pagination();
-
-            echo '<div class="articles">';
             
         } else {
             echo '<p>' . __('No se encontró ninguna coincidencia', 'renata') . '</p>';
         }
-    
+        echo '<div class="articles">';
+
         $post_count = wp_count_posts();
 
         if ( $post_count->publish > 0 ) :
