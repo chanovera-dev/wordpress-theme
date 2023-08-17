@@ -23,7 +23,7 @@ body{font-size:1.7rem; color:var(--color-text); background-color:var(--backgroun
 a{color:var(--color-text-link); text-decoration:underline; border-radius:.3rem; transition:all .3s ease;}
 a:hover{filter:brightness(1.15); text-decoration:underline;}
 a:focus{outline:none; box-shadow:var(--box-shadow-focus);}
-.container .section{width:min(100% - 4rem, 1096px); margin-inline:auto;}
+.container .section{width:min(100% - 4rem, 1366px); margin-inline:auto;}
 img{display:block; height:auto;}
 
 /* ajustes específicos */
