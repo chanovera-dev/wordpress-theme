@@ -94,7 +94,7 @@ function theme_colors() {
                 --box-shadow-focus:0 0 0 .3rem #c0606c;
                 --box-shadow-input-focus:0 0 0 .3rem rgba(192, 96, 108, 0.4);
                 --background-color-body:#f6f6f6;
-                --background-color-main:#fff;
+                --background-color-main:#f6f6f6;
                 --background-color-header:#f6f6f6;
                 --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73));
                 
@@ -188,7 +188,7 @@ function theme_colors() {
                     --color-text:#fff;
                     --color-text-link:#dfafb5;
                     --background-color-body:#000;
-                    --background-color-main:#111;
+                    --background-color-main:#000;
                     --background-color-header:#000;
                     --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.83));
 
