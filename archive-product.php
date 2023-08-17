@@ -7,7 +7,7 @@
 
     if ( have_posts() ){
         
-        echo '<section class="container"><div class="section archive-products">';
+        echo '<section class="container main-content"><div class="section archive-products">';
 
         while( have_posts() ){
             
