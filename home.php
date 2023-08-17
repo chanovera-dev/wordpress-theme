@@ -10,18 +10,18 @@
             
         if ( have_posts() ){
             
+            echo '<div class="articles">';
+
             while( have_posts() ){
                 
                 the_post();
-
-                echo '<div class="articles">';
-                
+   
                 get_template_part( 'templates/content', 'archive' );
-
-                echo '</div>';
-                
+    
             }
             the_posts_pagination();
+
+            echo '</div>';
             
         } else {
             echo '<p>' . __('Actualmente no hay artículos en este blog', 'renata') . '</p>';

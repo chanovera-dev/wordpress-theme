@@ -6,15 +6,19 @@
     
     include (TEMPLATEPATH. '/parts/sections/title-archive.php');
     
-    echo '<section class="container"><div class="section content-section all"><div class="articles">';   
+    echo '<section class="container"><div class="section content-section all">';   
             
         if ( have_posts() ){
             
             while( have_posts() ){
                 
                 the_post();
+
+                echo '<div class="articles">';
                 
                 get_template_part( 'templates/content', 'archive' );
+
+                echo '</div>';
                 
             }
             the_posts_pagination();
@@ -31,7 +35,7 @@
 
         endif;
 
-    echo '</div></section></div>';
+    echo '</div></section>';
     
     echo '</main>';
 
