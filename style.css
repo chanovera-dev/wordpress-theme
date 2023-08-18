@@ -61,7 +61,7 @@ body :has(.nojq){margin-top:32px;}
     /* menu */
     .menu-searchform-group ul li a{display:inline-flex; align-items:center; gap:.7rem;}
     .menu-searchform-group ul li a:before{position:relative; padding:8.5px; display:inline-block;}
-    .menu-searchform-group ul li a{color:var(--color-text); text-decoration:none;}
+    .menu-searchform-group ul li a{color:var(--color-header); text-decoration:none;}
     /* header searchbar */
     .menu-searchform-group .searchform .searchform-wrapper{position:relative; display:flex; justify-content:flex-end;}
     .menu-searchform-group .searchform .searchform-wrapper svg{position:absolute; top:1.2rem; left:1.2rem; color:var(--color-text-input-placeholder); width:1.6rem; height:1.6rem; cursor:pointer;}
