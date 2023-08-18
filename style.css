@@ -22,7 +22,7 @@ body{font-size:1.7rem; color:var(--color-text); background-color:var(--backgroun
 :is(header, footer) :is(ol, ul){margin:0; padding:0; list-style:none;}
 a{color:var(--color-text-link); text-decoration:underline; border-radius:.3rem; transition:all .3s ease;}
 a:hover{filter:brightness(1.15); text-decoration:underline;}
-a:focus{outline:none; box-shadow:var(--box-shadow-focus); color:var(--color-text);}
+a:focus{outline:none; box-shadow:var(--box-shadow-focus);}
 .container .section{width:min(100% - 4rem, 1366px); margin-inline:auto;}
 img{display:block; height:auto;}
 
@@ -49,6 +49,7 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 /* cabecera */
 .main-header{position:fixed; top:0; width:100%; z-index:5; backface-visibility:hidden; transform:translate3d(0, 0, 0); background-color:var(--background-color-header); transition:all .25s ease-in-out;}
 .main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:4.8rem;}
+.main-header :is(a:hover, a:focus){color:var(--color-text)!important;}
     /* scroll actions */    
     .scroll-down .main-header{transform:translate3d(0, -100%, 0); transition:all .3s ease-in-out;}
     .scroll-up .main-header{transform:none; transition:all .3s ease-in-out}
