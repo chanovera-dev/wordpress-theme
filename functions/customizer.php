@@ -157,6 +157,7 @@ function theme_colors() {
             .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/services.svg');}
             .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/testimonies.svg');}
             .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/blog.svg');}
+            .menu-searchform-group ul li a[href*="blog"]:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/blog-black.svg');}
 
             /* widgets */
             .categories ul li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/bookmark-star.svg');}
