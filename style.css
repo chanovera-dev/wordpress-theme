@@ -22,7 +22,7 @@ body{font-size:1.7rem; color:var(--color-text); background-color:var(--backgroun
 :is(header, footer) :is(ol, ul){margin:0; padding:0; list-style:none;}
 a{color:var(--color-text-link); text-decoration:underline; border-radius:.3rem; transition:all .3s ease;}
 a:hover{filter:brightness(1.15); text-decoration:underline;}
-a:focus{outline:none; box-shadow:var(--box-shadow-focus);}
+a:focus{outline:none; box-shadow:var(--box-shadow-focus); color:var(--color-text);}
 .container .section{width:min(100% - 4rem, 1366px); margin-inline:auto;}
 img{display:block; height:auto;}
 
@@ -47,7 +47,6 @@ input[type=tel]:focus,
 textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:var(--box-shadow-input-focus);}
 
 /* cabecera */
-body :has(.nojq){margin-top:32px;}
 .main-header{position:fixed; top:0; width:100%; z-index:5; backface-visibility:hidden; transform:translate3d(0, 0, 0); background-color:var(--background-color-header); transition:all .25s ease-in-out;}
 .main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:4.8rem;}
     /* scroll actions */    
@@ -56,12 +55,11 @@ body :has(.nojq){margin-top:32px;}
     /* marca */
     .header-content .site-brand{z-index:1; display:flex; align-items:center;}
     .header-content .site-brand a{color:var(--color-header); text-decoration:none;}
-    .header-content .site-brand .custom-logo-link:focus{outline:none; color:var(--color-text);}
+    .header-content .site-brand .custom-logo-link:focus{outline:none;}
     .header-content .site-brand .custom-logo-link .custom-logo{width:13rem; transition:all .3s ease;}
     /* menu */
-    .menu-searchform-group ul li a{display:inline-flex; align-items:center; gap:.7rem;}
+    .menu-searchform-group ul li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-header); text-decoration:none;}
     .menu-searchform-group ul li a:before{position:relative; padding:8.5px; display:inline-block;}
-    .menu-searchform-group ul li a{color:var(--color-header); text-decoration:none;}
     /* header searchbar */
     .menu-searchform-group .searchform .searchform-wrapper{position:relative; display:flex; justify-content:flex-end;}
     .menu-searchform-group .searchform .searchform-wrapper svg{position:absolute; top:1.2rem; left:1.2rem; color:var(--color-header); width:1.6rem; height:1.6rem; cursor:pointer;}
