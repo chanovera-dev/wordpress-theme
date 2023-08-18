@@ -55,7 +55,7 @@ body :has(.nojq){margin-top:32px;}
     .scroll-up .main-header{transform:none; transition:all .3s ease-in-out}
     /* marca */
     .header-content .site-brand{z-index:1; display:flex; align-items:center;}
-    .header-content .site-brand a{color:var(--color-text); text-decoration:none;}
+    .header-content .site-brand a{color:var(--color-header); text-decoration:none;}
     .header-content .site-brand .custom-logo-link:focus{outline:none;}
     .header-content .site-brand .custom-logo-link .custom-logo{width:13rem; transition:all .3s ease;}
     /* menu */
