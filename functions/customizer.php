@@ -152,12 +152,14 @@ function theme_colors() {
             /* iconos de navegación de la cabecera */
             .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/contact.svg');}
             .menu-searchform-group ul li a[href*="tienda"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/shop-window.svg');}
-            .menu-searchform-group ul li a[href*="tienda"]:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/shop-window-black.svg');}
+            .menu-searchform-group ul li a[href*="tienda"]:hover:before,
+            .menu-searchform-group ul li a[href*="tienda"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/shop-window-black.svg');}
             .menu-searchform-group ul li a[href*="biography"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/bio.svg');}
             .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/services.svg');}
             .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/testimonies.svg');}
             .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/blog.svg');}
-            .menu-searchform-group ul li a[href*="blog"]:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/blog-black.svg');}
+            .menu-searchform-group ul li a[href*="blog"]:hover:before,
+            .menu-searchform-group ul li a[href*="blog"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/blog-black.svg');}
 
             /* widgets */
             .categories ul li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/bookmark-star.svg');}
