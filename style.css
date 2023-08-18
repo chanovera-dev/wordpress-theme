@@ -64,7 +64,7 @@ body :has(.nojq){margin-top:32px;}
     .menu-searchform-group ul li a{color:var(--color-header); text-decoration:none;}
     /* header searchbar */
     .menu-searchform-group .searchform .searchform-wrapper{position:relative; display:flex; justify-content:flex-end;}
-    .menu-searchform-group .searchform .searchform-wrapper svg{position:absolute; top:1.2rem; left:1.2rem; color:var(--color-text-input-placeholder); width:1.6rem; height:1.6rem; cursor:pointer;}
+    .menu-searchform-group .searchform .searchform-wrapper svg{position:absolute; top:1.2rem; left:1.2rem; color:var(--color-header); width:1.6rem; height:1.6rem; cursor:pointer;}
     .menu-searchform-group .searchform .searchform-wrapper .bi-x-circle{display:none;}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s{width:100%; padding-left:3.7rem;}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s:focus{border:1px solid var(--color-emphasis);}
