@@ -110,7 +110,9 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 .footer-content .social ul li a:before{position:relative; padding:10px; display:inline-block;}
 /* logo */
 .footer-content .site-brand{display:grid; place-content:center; grid-column:1/-1;}
-.footer-content .site-brand a{position:relative; color:var(--color-text); text-decoration:none;}
+.footer-content .site-brand a{position:relative; color:var(--color-header); text-decoration:none;}
+.footer-content .site-brand a:hover,
+.footer-content .site-brand a:focus{color:var(--color-text);}
 .footer-content .site-brand a:before, 
 .footer-content .site-brand a:after{position:absolute; content:''; width:1500px; height:1px; background-color:var(--color-text); opacity:.09; top:50%; left:-1530px; }
 .footer-content .site-brand a:after{left:inherit; right:-1530px;}
