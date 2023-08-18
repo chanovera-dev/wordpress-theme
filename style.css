@@ -106,8 +106,8 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 .contact-footer li :is(a:hover, a:focus) svg{color:var(--color-text);}
 /* social */
 .footer-content .social ul{display:flex; align-items:center; justify-content:center; gap:3rem; height:4rem;}
-.footer-content .social ul li a{font-size:0; display:inline-flex; transition:all .3s ease;}
-.footer-content .social ul li a:before{position:relative; padding:10px; display:inline-block;}
+.footer-content .social ul li a{font-size:0; display:inline-flex;}
+.footer-content .social ul li a:before{position:relative; padding:10px; display:inline-block; transition:all .3s ease;}
 /* logo */
 .footer-content .site-brand{display:grid; place-content:center; grid-column:1/-1;}
 .footer-content .site-brand a{position:relative; color:var(--color-header); text-decoration:none;}
