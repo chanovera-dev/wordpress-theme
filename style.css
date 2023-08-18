@@ -100,8 +100,8 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
 #main-footer{background-color:var(--background-color-footer); color:var(--color-text-footer); overflow:hidden;}
 .footer-content{padding:4rem 0; display:grid;gap:3rem; text-align:center;}
 :is(.contact-footer, .secondary .menu) li{display:flex; align-items:center; justify-content:center; height:4rem;}
-:is(.contact-footer, .secondary .menu) li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-text); text-decoration:none;}
-:is(.contact-footer, .secondary .menu) li a:hover{text-decoration:underline;}
+:is(.contact-footer, .secondary .menu) li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-header); text-decoration:none;}
+:is(.contact-footer, .secondary .menu) li a:hover{text-decoration:underline; color:var(--color-text);}
 .contact-footer li a svg{color:var(--color-text);}
 /* social */
 .footer-content .social ul{display:flex; align-items:center; justify-content:center; gap:3rem; height:4rem;}
