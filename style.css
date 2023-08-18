@@ -69,9 +69,10 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s:focus{border:1px solid var(--color-emphasis);}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s::placeholder{color:#86868b;}
     /* carrito */
-    .header-cart{display:flex; align-items:center; gap:1rem; margin-left:auto; color:var(--color-text); transition:all .3s ease;}
-    .header-cart:hover{color:var(--color-text);}
-    .header-cart svg{width:2.5rem; height:2.5rem; color:var(--color-header);}
+    .header-cart{display:flex; align-items:center; gap:1rem; margin-left:auto;}
+    .header-cart a{color:var(--color-header); transition:all .3s ease;}
+    .header-cart a:hover{color:var(--color-text);}
+    .header-cart svg{width:2.5rem; height:2.5rem;}
 
 /* contact-form */
 .wpcf7-form{display:grid; gap:1.7rem;}
