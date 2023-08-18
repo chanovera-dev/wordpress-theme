@@ -179,7 +179,7 @@ body :has(.nojq){margin-top:32px;}
         .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s{width:1.8rem; padding-left:0rem; padding-right:0; background-color:transparent; border:1px solid transparent;}
         .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s::placeholder{color:transparent;}
         .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s.activate{width:500px; background-color:var(--background-color-input); border:1px solid var(--border-color-input); padding-left:3.7rem; padding-right:1rem;}
-        .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s.activate:focus{border:1px solid var(--color-emphasis); box-shadow:var(--box-shadow-input-focus);}
+        .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s.activate:focus{border:1px solid var(--color-text-link); box-shadow:var(--box-shadow-input-focus);}
         /* carrito */
         .header-cart{margin-left:0;}
         .header-cart svg{width:1.7rem; height:1.7rem;}
