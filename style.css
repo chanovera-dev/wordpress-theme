@@ -56,7 +56,7 @@ body :has(.nojq){margin-top:32px;}
     /* marca */
     .header-content .site-brand{z-index:1; display:flex; align-items:center;}
     .header-content .site-brand a{color:var(--color-header); text-decoration:none;}
-    .header-content .site-brand .custom-logo-link:focus{outline:none;}
+    .header-content .site-brand .custom-logo-link:focus{outline:none; color:var(--color-text);}
     .header-content .site-brand .custom-logo-link .custom-logo{width:13rem; transition:all .3s ease;}
     /* menu */
     .menu-searchform-group ul li a{display:inline-flex; align-items:center; gap:.7rem;}
