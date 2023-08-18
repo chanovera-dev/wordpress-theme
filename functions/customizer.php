@@ -151,6 +151,8 @@ function theme_colors() {
 
             /* iconos de navegación de la cabecera */
             .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/contact.svg');}
+            .menu-searchform-group ul li a[href*="contact"]:hover:before,
+            .menu-searchform-group ul li a[href*="contact"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/contact-black.svg');}
             .menu-searchform-group ul li a[href*="tienda"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/shop-window.svg');}
             .menu-searchform-group ul li a[href*="tienda"]:hover:before,
             .menu-searchform-group ul li a[href*="tienda"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/shop-window-black.svg');}
