@@ -93,7 +93,7 @@ function theme_colors() {
                 --color-text-link-hover:#c12927;
                 --color-emphasis:#c12927;
                 --box-shadow-focus:0 0 0 .3rem #2ea8fa;
-                --box-shadow-input-focus:0 0 0 .3rem rgba(192, 96, 108, 0.2);
+                --box-shadow-input-focus:0 0 0 .3rem rgba(46, 168, 250, 0.2);
                 --box-shadow-main-content:  0 4px  30px  rgba(0, 0, 0, .1),
                                             0 4px  8px  rgba(0, 0, 0, .08),
                                             0 16px  16px  rgba(0, 0, 0, .09),
