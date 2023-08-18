@@ -175,7 +175,7 @@ body :has(.nojq){margin-top:32px;}
         .menu-searchform-group .searchform{order:2;}
         .menu-searchform-group .searchform .searchform-wrapper #activate-search.change-icon .bi-x-circle{display:inherit; left:1.2rem; color:var(--color-text);}
         .menu-searchform-group .searchform .searchform-wrapper #activate-search.change-icon .bi-search{display:none;}
-        .menu-searchform-group .searchform .searchform-wrapper svg{left:0; color:var(--color-text);}
+        .menu-searchform-group .searchform .searchform-wrapper svg{left:0;}
         .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s{width:1.8rem; padding-left:0rem; padding-right:0; background-color:transparent; border:1px solid transparent;}
         .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s::placeholder{color:transparent;}
         .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s.activate{width:500px; background-color:var(--background-color-input); border:1px solid var(--border-color-input); padding-left:3.7rem; padding-right:1rem;}
