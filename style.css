@@ -71,7 +71,7 @@ body :has(.nojq){margin-top:32px;}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s::placeholder{color:#86868b;}
     /* carrito */
     .header-cart{display:flex; align-items:center; gap:1rem; margin-left:auto; color:var(--color-text);}
-    .header-cart svg{width:2.5rem; height:2.5rem;}
+    .header-cart svg{width:2.5rem; height:2.5rem; color:var(--color-header);}
 
 /* contact-form */
 .wpcf7-form{display:grid; gap:1.7rem;}
