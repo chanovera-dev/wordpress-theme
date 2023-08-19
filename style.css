@@ -122,7 +122,8 @@ textarea:focus{outline:none; border:1px solid var(--color-emphasis); box-shadow:
         /* botón del menú */
         .ms-group_button{position:relative; display:grid; place-content:center; cursor:pointer; z-index:1;}
         .ms-group_button .bars{display:inline-block; width:2.5rem; height:2rem; transition:all .3s ease-out;}
-        .ms-group_button .bars :is(.bar1, .bar2, .bar3){width:2.5rem; height:.2rem; transition:.4s; background-color:var(--color-text );}
+        .ms-group_button .bars :is(.bar1, .bar2, .bar3){width:2.5rem; height:.2rem; transition:.4s; background-color:var(--color-header);}
+        .ms-group_button .bars :is(.bar1, .bar2, .bar3):hover{color:var(--color-text);}
         .ms-group_button .bars > div:not(:last-child){margin-bottom:.7rem;}
         .ms-group_button .bars.change{transition-delay:.8s; transform:rotate(45deg);}
         .ms-group_button .bars.change .bar2{width:0;}
