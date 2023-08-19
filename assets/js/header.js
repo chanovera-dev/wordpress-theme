@@ -6,7 +6,6 @@ function myFunction(x) {
     
     if (nav.className === "menu-searchform-group") {
         nav.className += " active";
-        siteBrand.style.color = "var(--color-header)";
     } else {
         nav.className = "menu-searchform-group";
     }
