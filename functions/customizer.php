@@ -208,6 +208,8 @@ function theme_colors() {
             :is(.footer-content .social) ul li a[href*="t.me"]:hover:before,
             :is(.footer-content .social) ul li a[href*="t.me"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/telegram-black.svg');}
 
+            /* icono home en la tienda */
+            .woocommerce-page .title-section .breadcrumb a:nth-child(1):before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/home.svg');}
             /* iconos del loop de woocommerce */
             article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-plus.svg');}
             article .button-cart-wrapper .added:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-check.svg');}
