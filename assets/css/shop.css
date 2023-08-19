@@ -7,7 +7,8 @@ main .container .section.archive-products:has(article:hover) > article:not(:hove
     article .content-wrapper{order:1; display:grid; gap:1.7rem; align-content:flex-start; text-align:center;}
         /* orden */
         article .price{order:4;}
-        article .price del{opacity:.5;}
+        article .price del{opacity:.25; margin-right:.7rem;}
+        article .price ins{text-decoration:none;}
         /* imagen */
         article .wp-post-image{width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:.4rem;}
         /* tamaño de fuente */
