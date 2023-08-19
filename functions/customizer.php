@@ -250,14 +250,18 @@ function theme_colors() {
                 }
 
                 /* iconos de navegación de la cabecera */
-                .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/contact.svg');}
                 .menu-searchform-group ul li a[href*="contact"]:hover:before,
                 .menu-searchform-group ul li a[href*="contact"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/contact.svg');}
-                .menu-searchform-group ul li a[href*="tienda"]:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/shop-window.svg');}
-                .menu-searchform-group ul li a[href*="biography"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bio.svg');}
-                .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services.svg');}
-                .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies.svg');}
-                .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog.svg');}
+                .menu-searchform-group ul li a[href*="tienda"]:hover:before,
+                .menu-searchform-group ul li a[href*="tienda"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/shop-window.svg');}
+                .menu-searchform-group ul li a[href*="biography"]:hover:before,
+                .menu-searchform-group ul li a[href*="biography"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bio.svg');}
+                .menu-searchform-group ul li a[href*="services"]:hover:before,
+                .menu-searchform-group ul li a[href*="services"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services.svg');}
+                .menu-searchform-group ul li a[href*="testimonies"]:hover:before,
+                .menu-searchform-group ul li a[href*="testimonies"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies.svg');}
+                .menu-searchform-group ul li a[href*="blog"]:hover:before,
+                .menu-searchform-group ul li a[href*="blog"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog.svg');}
 
                 /* widgets */
                 .categories ul li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bookmark-star.svg');}
@@ -265,12 +269,18 @@ function theme_colors() {
                 .all .articles .article .tags a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/tag-fill.svg');}
 
                 /* iconos de redes sociales */
-                :is(.footer-content .social) ul li a[href*="wa.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/whatsapp.svg');}
-                :is(.footer-content .social) ul li a[href*="linkedin"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/linkedin.svg');}
-                :is(.footer-content .social) ul li a[href*="facebook"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/facebook.svg');}
-                :is(.footer-content .social) ul li a[href*="instagram"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/instagram.svg');}
-                :is(.footer-content .social) ul li a[href*="twitter"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/twitter.svg');}
-                :is(.footer-content .social) ul li a[href*="t.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/telegram.svg');}
+                :is(.footer-content .social) ul li a[href*="wa.me"]:hover:before,
+                :is(.footer-content .social) ul li a[href*="wa.me"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/whatsapp.svg');}
+                :is(.footer-content .social) ul li a[href*="linkedin"]:hover:before,
+                :is(.footer-content .social) ul li a[href*="linkedin"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/linkedin.svg');}
+                :is(.footer-content .social) ul li a[href*="facebook"]:hover:before,
+                :is(.footer-content .social) ul li a[href*="facebook"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/facebook.svg');}
+                :is(.footer-content .social) ul li a[href*="instagram"]:hover:before,
+                :is(.footer-content .social) ul li a[href*="instagram"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/instagram.svg');}
+                :is(.footer-content .social) ul li a[href*="twitter"]:hover:before,
+                :is(.footer-content .social) ul li a[href*="twitter"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/twitter.svg');}
+                :is(.footer-content .social) ul li a[href*="t.me"]:hover:before,
+                :is(.footer-content .social) ul li a[href*="t.me"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/telegram.svg');}
 
                 /* iconos del loop de woocommerce */
                 article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/cart-plus.svg');}
