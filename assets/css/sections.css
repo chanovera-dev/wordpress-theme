@@ -34,6 +34,7 @@
 @media(min-width:1024px){
     /* encabezado de artículo */
     .single-post main .title-section-wrapper{padding-top:4.4rem;}
+    .single-post main .title-section-wrapper .title{display:grid; gap:7.5rem; grid-template-columns:1fr 330px;}
 
     /* color de texto en los menús */
     :is(/*.home, */.single-post) .menu-searchform-group ul li a{color:#fff;}
