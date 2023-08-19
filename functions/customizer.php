@@ -215,7 +215,7 @@ function theme_colors() {
                     --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.83));
 
                     /* encabezados */
-                    --background-color-title-section:#000;
+                    --background-color-title-section:#111;
 
                     /* formularios */
                     --border-color-input:#333;
