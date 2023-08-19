@@ -184,13 +184,21 @@ function theme_colors() {
 
             /* iconos de redes sociales */
             :is(.footer-content .social) ul li a[href*="wa.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/whatsapp.svg');}
+            :is(.footer-content .social) ul li a[href*="wa.me"]:hover:before,
+            :is(.footer-content .social) ul li a[href*="wa.me"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/whatsapp-black.svg');}
             :is(.footer-content .social) ul li a[href*="linkedin"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/linkedin.svg');}
+            :is(.footer-content .social) ul li a[href*="linkedin"]:hover:before,
+            :is(.footer-content .social) ul li a[href*="linkedin"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/linkedin-black.svg');}
             :is(.footer-content .social) ul li a[href*="facebook"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/facebook.svg');}
             :is(.footer-content .social) ul li a[href*="instagram"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/instagram.svg');}
+            :is(.footer-content .social) ul li a[href*="instagram"]:hover:before,
+            :is(.footer-content .social) ul li a[href*="instagram"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/instagram-black.svg');}
             :is(.footer-content .social) ul li a[href*="twitter"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/twitter.svg');}
             :is(.footer-content .social) ul li a[href*="twitter"]:hover:before,
             :is(.footer-content .social) ul li a[href*="twitter"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/twitter-black.svg');}
             :is(.footer-content .social) ul li a[href*="t.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/telegram.svg');}
+            :is(.footer-content .social) ul li a[href*="t.me"]:hover:before,
+            :is(.footer-content .social) ul li a[href*="t.me"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/telegram-black.svg');}
 
             /* iconos del loop de woocommerce */
             article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-plus.svg');}
