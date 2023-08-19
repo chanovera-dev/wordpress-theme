@@ -208,11 +208,10 @@ function theme_colors() {
                 :root{
                     /* generales */
                     --color-text:#fff;
-                    --color-text-link:#dfafb5;
-                    --background-color-body:#000;
-                    --background-color-main:#000;
-                    --background-color-main-content:#111;
-                    --background-color-header:#000;
+                    --background-color-body:#111;
+                    --background-color-main:#111;
+                    --background-color-main-content:#000;
+                    --background-color-header:#111;
                     --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.83));
 
                     /* encabezados */
