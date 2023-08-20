@@ -6,9 +6,9 @@
 .woocommerce-message a.button.wc-forward{padding:1rem 2rem; background-color:#270; color:#fff; text-decoration:none; border-radius:.4rem; margin-right:1rem;}
 
 /* galería */
-.product-gallery{position:relative; overflow:hidden;}
+.product-galery{position:relative; overflow:hidden;}
     /* botón de oferta */
-    .onsale{position:absolute; background-color:red; color:#fff; left:0; top:0;}
+    .onsale{position:absolute; background-color:red; color:#fff; left:0; top:0; padding:.5rem 3rem;}
     /* botón zoom */
     .woocommerce-product-gallery__trigger{position:relative; display:grid; place-content:center; width:4rem; height:4rem; background-color:var(--background-color-title-section);}
     .woocommerce-product-gallery__trigger:before{position:absolute; padding:8.5px; display:inline-block; top:50%; left:50%; transform:translate(-50%, -50%); background-color:var(--background-color-title-section); border:2px solid var(--background-color-title-section);}
