@@ -218,16 +218,28 @@ function theme_colors() {
                 /* iconos de navegación si hay un fondo detrás || descomentar si el hero en el frontpage tiene una imagen */
             /* .home .menu-searchform-group ul li a[href*="contact"]:before, */
             .single-post .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/contact-semitransparent.svg');}
+            .single-post .menu-searchform-group ul li a[href*="contact"]:hover:before,
+            .single-post .menu-searchform-group ul li a[href*="contact"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/contact.svg');}
             /* .home .menu-searchform-group ul li a[href*="tienda"]:before, */
             .single-post .menu-searchform-group ul li a[href*="tienda"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/shop-window-semitransparent.svg');}
+            .single-post .menu-searchform-group ul li a[href*="tienda"]:hover:before,
+            .single-post .menu-searchform-group ul li a[href*="tienda"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/shop-window.svg');}
             /* .home .menu-searchform-group ul li a[href*="biography"]:before, */
             .single-post .menu-searchform-group ul li a[href*="biography"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bio-semitransparent.svg');}
+            .single-post .menu-searchform-group ul li a[href*="biography"]:hover:before,
+            .single-post .menu-searchform-group ul li a[href*="biography"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bio.svg');}
             /* .home .menu-searchform-group ul li a[href*="services"]:before, */
             .single-post .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services-semitransparent.svg');}
+            .single-post .menu-searchform-group ul li a[href*="services"]:hover:before,
+            .single-post .menu-searchform-group ul li a[href*="services"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services.svg');}
             /* .home .menu-searchform-group ul li a[href*="testimonies"]:before, */
             .single-post .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies-semitransparent.svg');}
+            .single-post .menu-searchform-group ul li a[href*="testimonies"]:hover:before,
+            .single-post .menu-searchform-group ul li a[href*="testimonies"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies.svg');}
             /* .home .menu-searchform-group ul li a[href*="blog"]:before, */
             .single-post .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog-semitransparent.svg');}
+            .single-post .menu-searchform-group ul li a[href*="blog"]:hover:before,
+            .single-post .menu-searchform-group ul li a[href*="blog"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog.svg');}
             }
 
             @media(prefers-color-scheme:dark){
