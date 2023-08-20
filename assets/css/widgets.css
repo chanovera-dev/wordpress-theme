@@ -52,9 +52,9 @@ li.categories{display:grid; gap:2rem;}
 :is(address, .categories) ul li:not(:last-child),
 .archive-list-widget li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
 :is(address, .categories) ul li a,
-.archive-list-widget li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-text); text-decoration:none;}
+.archive-list-widget li a{display:inline-flex; align-items:center; gap:.7rem; color:var(--color-header); text-decoration:none;}
 :is(address, .categories) ul li a:hover,
-.archive-list-widget li a:hover{text-decoration:none;}
+.archive-list-widget li a:hover{color:var(--color-text); text-decoration:none;}
 .categories ul li a,
 .archive-list-widget li a{display:inline-flex; align-items:center; gap:.7rem;}
 .categories ul li a:before,
