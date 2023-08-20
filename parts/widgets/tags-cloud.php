@@ -15,7 +15,7 @@ $args = array(
 $query = new WP_Query( $args );
 
 if ( function_exists( 'wp_tag_cloud' ) && $query->have_posts() ) :
-    echo '<div class="tags-widget"><h3 class="widget-title">' . __('Nube de etiquetas', 'renata') . '</h3>';
+    echo '<div class="tags-widget"><div class="title-wrapper"><h3 class="widget-title">' . __('Nube de etiquetas', 'renata') . '</h3></div>';
     wp_tag_cloud( array(
         'smallest'  => 11,
         'largest'   => 25,
