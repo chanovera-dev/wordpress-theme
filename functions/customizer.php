@@ -319,10 +319,6 @@ function theme_colors() {
                 :is(.footer-content .social) ul li a[href*="t.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/telegram-dark.svg');}
                 :is(.footer-content .social) ul li a[href*="t.me"]:hover:before,
                 :is(.footer-content .social) ul li a[href*="t.me"]:focus:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/telegram.svg');}
-
-                /* iconos del loop de woocommerce */
-                article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/cart-plus.svg');}
-                article .button-cart-wrapper .added:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/cart-check.svg');}
             }
         </style>
     <?php
