@@ -1,4 +1,4 @@
-.single-product main .container .section.data-product{display:grid; gap:4rem; padding:2rem 0;}
+.single-product main .container .section.data-product{display:grid; gap:4rem; padding:3rem 0;}
 
 /* galería */
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
