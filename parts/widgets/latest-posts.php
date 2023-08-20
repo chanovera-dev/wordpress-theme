@@ -1,5 +1,7 @@
 <div class="latest-posts_widget widget-wrapper">
-    <h3 class="widget-title"><?= __('Artículos más recientes', 'renata') ?></h3>
+    <div class="title-wrapper">
+        <h3 class="widget-title"><?= __('Artículos más recientes', 'renata') ?></h3>
+    </div>
     <?php 
 
         global $post;
