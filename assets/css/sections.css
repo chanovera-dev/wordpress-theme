@@ -37,6 +37,8 @@
     .single-post main .title-section-wrapper{padding-top:4.4rem;}
     .single-post main .title-section-wrapper .title{display:grid; gap:7.5rem; grid-template-columns:1fr 330px;}
 
+    /* color de texto en hover del nombre del sitio */
+    :is(.single-post) .main-header.container .header-content :is(.site-brand a:hover, .header-cart:hover svg, .header-cart a:hover){color:#fff;}
     /* color de texto en los menús */
     :is(/*.home, */.single-post) .menu-searchform-group ul li a{color:rgba(255,255,255,.25);}
     :is(/*.home, */.single-post) .menu-searchform-group ul li a:hover{color:rgba(255,255,255,1)!important;}
