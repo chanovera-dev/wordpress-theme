@@ -84,3 +84,8 @@
     .woocommerce-product-gallery__image a img{width:398px;}
 }
 */
+
+@media(min-width:768px){
+    /* datos del producto */
+    .single-product main .container .section.data-product{grid-template-columns:1fr 1fr;}
+}
