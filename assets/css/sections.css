@@ -9,7 +9,7 @@
 :is(.home, .page, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:bold;}
 .single-product main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:300;}
 .single-product main .title-section-wrapper .title:nth-child(2) a{gap:0;}
-.single-product main .title-section-wrapper .title:nth-child(2) a:before{background-image:none;}
+.single-product main .title-section-wrapper .title:nth-child(2) a:before{background-image:none; display:none;}
 .single-post main .title-section-wrapper .title{font-size:4rem;}
 /* ajustes específicos de artículos */
 .single-post main{padding-top:0;}
