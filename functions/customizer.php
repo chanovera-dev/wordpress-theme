@@ -214,6 +214,22 @@ function theme_colors() {
             article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-plus.svg');}
             article .button-cart-wrapper .added:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-check.svg');}
 
+            @media(min-width:1024px){
+                /* iconos de navegación si hay un fondo detrás || descomentar si el hero en el frontpage tiene una imagen */
+            /* .home .menu-searchform-group ul li a[href*="contact"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="contact"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/contact-semitransparent.svg');}
+            /* .home .menu-searchform-group ul li a[href*="tienda"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="tienda"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/shop-window-semitransparent.svg');}
+            /* .home .menu-searchform-group ul li a[href*="biography"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="biography"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/bio-semitransparent.svg');}
+            /* .home .menu-searchform-group ul li a[href*="services"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="services"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/services-semitransparent.svg');}
+            /* .home .menu-searchform-group ul li a[href*="testimonies"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies-semitransparent.svg');}
+            /* .home .menu-searchform-group ul li a[href*="blog"]:before, */
+            .single-post .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog-semitransparent.svg');}
+            }
+
             @media(prefers-color-scheme:dark){
                 :root{
                     /* generales */
