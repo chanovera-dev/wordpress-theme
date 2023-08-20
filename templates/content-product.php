@@ -6,7 +6,6 @@
         <div class="product-summary">
             <?php 
                 do_action( 'woocommerce_single_product_summary' );
-                include(TEMPLATEPATH . '/parts/widgets/share.php');
             ?>
         </div>
     </div>

@@ -3,7 +3,7 @@
 
     echo '<main id="main">';
 
-    include(TEMPLATEPATH . '/parts/sections/title-woocommerce.php');
+    include(TEMPLATEPATH . '/parts/sections/title-product.php');
 
     if ( have_posts() ){
         
