@@ -186,7 +186,7 @@ function theme_colors() {
             /* .home .menu-searchform-group ul li a[href*="testimonies"]:before, */
             .single-post .menu-searchform-group ul li a[href*="testimonies"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/testimonies-dark.svg');}
             /* .home .menu-searchform-group ul li a[href*="blog"]:before, */
-            .single-post .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog.svg');}
+            .single-post .menu-searchform-group ul li a[href*="blog"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/night/blog-dark.svg');}
 
             /* iconos de redes sociales */
             :is(.footer-content .social) ul li a[href*="wa.me"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/whatsapp.svg');}
