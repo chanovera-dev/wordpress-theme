@@ -214,6 +214,8 @@ function theme_colors() {
             /* iconos del loop de woocommerce */
             article .button-cart-wrapper .product_type_simple:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-plus.svg');}
             article .button-cart-wrapper .added:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/cart-check.svg');}
+            /* icono de zoom */
+            .woocommerce-product-gallery__trigger:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/day/zoom-in.svg');}
 
             @media(min-width:1024px){
                 /* iconos de navegación si hay un fondo detrás || descomentar si el hero en el frontpage tiene una imagen */
