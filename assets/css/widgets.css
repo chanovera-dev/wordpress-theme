@@ -13,7 +13,7 @@
 
 /* títulos */
 .widget-title,
-li.categories{font-size:var(--wp--preset--font-size--x-large); font-weight:600; color:var(--color-header); list-style:none;}
+li.categories{font-size:var(--wp--preset--font-size--x-large); font-weight:600; color:var(--color-text); list-style:none;}
 :is(.tags-widget, .archive-list-widget) .widget-title{margin-bottom:2rem;}
 
 /* tags links customize */
