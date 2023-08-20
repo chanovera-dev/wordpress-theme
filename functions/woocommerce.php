@@ -39,8 +39,6 @@ add_filter( 'woocommerce_breadcrumb_defaults', 'mk_cambiar_breadcrumbs' );
 function mk_cambiar_breadcrumbs() {
     return array(
        'delimiter' => ' / ',
-       'wrap_before' => '&lt;nav class="woocommerce-breadcrumb" itemprop="breadcrumb">',
-       'wrap_after' => '&lt;/nav>',
        'before' => '<h1 class="title">',
        'after' => '</h1>',
    );
