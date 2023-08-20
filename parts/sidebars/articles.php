@@ -2,7 +2,7 @@
     <?php 
         if ( has_tag() == false ) :
         else:
-            echo '<div class="tags-widget"><div class="title-wrapper"><h3 class="widget-title">' . __('Etiquetas', 'renata') . '</h3><div>';
+            echo '<div class="tags-widget"><div class="title-wrapper"><h3 class="widget-title">' . __('Etiquetas', 'renata') . '</h3></div>';
             include(TEMPLATEPATH . '/parts/widgets/tags.php');
             echo '</div>';
             
