@@ -24,8 +24,9 @@
 
 /* encabezado woocommerce */
 .woocommerce-page .title-section .breadcrumb a:nth-child(1){display:inline-flex; align-items:baseline;}
-.woocommerce-page .title-section .breadcrumb a:nth-child(1):before{position:relative; padding:8.5px; top:.1rem; margin-right:.7rem; display:inline-block;}
-.woocommerce-page .title-section-wrapper .title-section .breadcrumb .woocommerce-breadcrumb a{gap:0;}
+.woocommerce-page .title-section .breadcrumb a:nth-child(1):before{position:relative; padding:8.5px; top:.1rem; display:inline-block;}
+.woocommerce-page .title-section-wrapper .title-section .breadcrumb .woocommerce-breadcrumb .title:nth-child(1){font-weight:400;}
+.woocommerce-page .title-section-wrapper .title-section .breadcrumb .woocommerce-breadcrumb .title a{gap:0;}
 
 /* sidebar */
 :is(.page, .single-post, .home, .archive, .search) .content-section aside{display:none;}
