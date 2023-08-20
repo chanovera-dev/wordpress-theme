@@ -4,7 +4,8 @@
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb{display:inline-flex; gap:.7rem; align-items:baseline;}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a{display:inline-flex; align-items:baseline; gap:.7rem; text-decoration:none;}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a svg{position:relative; top:.1rem;}
-:is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title{font-size:1.7rem; font-weight:bold;}
+:is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(1){font-size:1.7rem; font-weight:300;}
+:is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:bold;}
 .single-post main .title-section-wrapper .title{font-size:4rem;}
 /* ajustes específicos de artículos */
 .single-post main{padding-top:0;}
@@ -25,7 +26,6 @@
 /* encabezado woocommerce */
 .woocommerce-page .title-section .breadcrumb a:nth-child(1){display:inline-flex; align-items:baseline;}
 .woocommerce-page .title-section .breadcrumb a:nth-child(1):before{position:relative; padding:8.5px; top:.1rem; display:inline-block;}
-.woocommerce-page .title-section-wrapper .title-section .breadcrumb .woocommerce-breadcrumb .title:nth-child(1){font-weight:400;}
 .woocommerce-page .title-section-wrapper .title-section .breadcrumb .woocommerce-breadcrumb .title a{gap:0;}
 
 /* sidebar */
