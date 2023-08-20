@@ -35,14 +35,14 @@ function replace_star_ratings($html, $rating) {
 }
 
 // personaliza los brearcrumbs
-add_filter( 'woocommerce_breadcrumb_defaults', 'mk_cambiar_breadcrumbs' );
+add_filter( 'woocommerce_breadcrumb_defaults', 'renata_cambiar_breadcrumbs' );
 function mk_cambiar_breadcrumbs() {
     return array(
        'delimiter' => ' / ',
-	   'wrap_before' => '<h1 class="title">',
-	   'wrap_after' => '</h1>',
-       'before' => '',
-       'after' => '',
+	   'wrap_before' => '',
+	   'wrap_after' => '',
+       'before' => '<h1 class="title">',
+       'after' => '</h1>',
 	   'home' => _x( 'Inicio', 'breadcrumb', 'woocommerce' ),
    );
 }
