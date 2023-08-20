@@ -6,7 +6,9 @@
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a svg{position:relative; top:.1rem;}
 :is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout, .page-template-contact) main .title-section-wrapper .title{font-size:1.7rem; font-weight:bold;}
 :is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(1){font-size:1.7rem; font-weight:300;}
-:is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:bold;}
+:is(.home, .page, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:bold;}
+.single-product main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:300;}
+.single-product main .title-section-wrapper .title:nth-child(2) a:before{content:'';}
 .single-post main .title-section-wrapper .title{font-size:4rem;}
 /* ajustes específicos de artículos */
 .single-post main{padding-top:0;}
