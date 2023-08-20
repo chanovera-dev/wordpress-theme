@@ -30,7 +30,7 @@ img{display:block; height:auto;}
 main{padding-top:4.8rem; background-color:var(--background-color-main);}
 .main-content{position:relative; background-color:var(--background-color-main-content); box-shadow: var(--box-shadow-main-content);}
 main .container .section{padding:4rem 0;}
-.color-menu-active{color:var(--color-header);}
+.color-menu-active{color:var(--color-header)!important;}
 
 /* formularios */
 input[type=text],
