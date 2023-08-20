@@ -41,6 +41,7 @@ function mk_cambiar_breadcrumbs() {
        'delimiter' => ' / ',
        'before' => '<h1 class="title">',
        'after' => '</h1>',
+	   'home' => _x( 'Inicio', 'breadcrumb', 'woocommerce' ),
    );
 }
 
