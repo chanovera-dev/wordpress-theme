@@ -4,6 +4,7 @@
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb{display:inline-flex; gap:.7rem; align-items:baseline;}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a{display:inline-flex; align-items:baseline; gap:.7rem; text-decoration:none;}
 :is(.home, .page, .single-post, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .breadcrumb a svg{position:relative; top:.1rem;}
+:is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout, .page-template-contact) main .title-section-wrapper .title{font-size:1.7rem; font-weight:bold;}
 :is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(1){font-size:1.7rem; font-weight:300;}
 :is(.home, .page, .single-product, .archive, .search, .error404, .blog, .page-template-cart, .page-template-checkout) main .title-section-wrapper .title:nth-child(2){font-size:1.7rem; font-weight:bold;}
 .single-post main .title-section-wrapper .title{font-size:4rem;}
