@@ -3,6 +3,7 @@
 .single-product main .container .section.data-product{display:grid; gap:4rem; padding:3rem 0;}
 .woocommerce-notices-wrapper{background-color:#DFF2BF; color:#270;}
 .woocommerce-message{width:min(100% - 4rem, 1366px); margin-inline:auto; padding:2rem 0;}
+.woocommerce-message a.button.wc-forward{padding:1rem 2rem; background-color:#270; color:#fff; text-decoration:none; border-radius:.4rem; margin-right:1rem;}
 
 /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
