@@ -1,8 +1,6 @@
 <div class="main-content">
     <section class="container">
-        <div class="section">
-            <?php do_action( 'woocommerce_before_single_product' ); ?>
-        </div>
+    <?php do_action( 'woocommerce_before_single_product' ); ?>
     </section>
     <section class="container">
         <div class="section data-product">
@@ -12,8 +10,8 @@
             <div class="product-summary">
                 <?php 
                     do_action( 'woocommerce_single_product_summary' );
-                    do_action( 'woocommerce_simple_add_to_cart' );
-                    do_action( 'woocommerce_after_add_to_cart_quantity' );
+                    // do_action( 'woocommerce_simple_add_to_cart' );
+                    // do_action( 'woocommerce_after_add_to_cart_quantity' );
                 ?>
             </div>
         </div>
