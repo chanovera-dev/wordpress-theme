@@ -16,8 +16,8 @@
 
 /* color de texto de encabezado de artículos */
 :is(/*.home, */.single-post) .main-header.container{background-color:transparent;}
-:is(/*.home, */.single-post) .main-header.container .header-content :is(.site-brand a, .header-cart svg, .header-cart a){color:#fff;}
-:is(/*.home, */.single-post) .main-header.container .header-content :is(.ms-group_button .bars .bar1, .ms-group_button .bars .bar2, .ms-group_button .bars .bar3){background-color:rgba(255,255,255,.5);}
+:is(/*.home, */.single-post) .main-header.container .header-content :is(.site-brand a, .header-cart svg, .header-cart a){color:rgba(255,255,255,.25);}
+:is(/*.home, */.single-post) .main-header.container .header-content :is(.ms-group_button .bars .bar1, .ms-group_button .bars .bar2, .ms-group_button .bars .bar3){background-color:rgba(255,255,255,.25);}
 :is(/*.home, */.single-post) .main-header.container .header-content :is(.ms-group_button .bars.change .bar1, .ms-group_button .bars.change .bar2, .ms-group_button .bars.change .bar3){background-color:var(--color-text);}
 .single-post main .title-section-wrapper .breadcrumb a{color:#fff;}
 .single-post main .title-section-wrapper{padding-top:4.8rem;}
