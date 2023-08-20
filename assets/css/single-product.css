@@ -1,3 +1,4 @@
+.single-product main .container.container-data-product{overflow:hidden;}
 .single-product main .container.title-section-wrapper .section{padding:2rem 0;}
 .single-product main .container .section{padding:0;}
 .single-product main .container .section.data-product{display:grid; gap:4rem; padding:3rem 0;}
@@ -7,7 +8,7 @@
 
 /* galería */
     /* botón de oferta */
-    .onsale{position:absolute; background-color:red; color:#fff; left:-40px; top:23px; padding:.5rem 3rem; transform:rotate(-45deg);}
+    .onsale{position:absolute; background-color:red; color:#fff; left:-40px; top:23px; padding:.5rem 5rem; transform:rotate(-45deg);}
     /* botón zoom */
     .woocommerce-product-gallery__trigger{position:relative; display:grid; place-content:center; width:4rem; height:4rem; background-color:var(--background-color-title-section);}
     .woocommerce-product-gallery__trigger:before{position:absolute; padding:8.5px; display:inline-block; top:50%; left:50%; transform:translate(-50%, -50%); background-color:var(--background-color-title-section); border:2px solid var(--background-color-title-section);}

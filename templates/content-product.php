@@ -2,7 +2,7 @@
     <section class="container">
     <?php do_action( 'woocommerce_before_single_product' ); ?>
     </section>
-    <section class="container">
+    <section class="container container-data-product">
         <div class="section data-product">
             <div class="product-galery">
                 <?php do_action( 'woocommerce_before_single_product_summary' ); ?>
