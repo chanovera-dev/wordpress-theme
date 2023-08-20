@@ -36,6 +36,10 @@
 /* sidebar */
 :is(.page, .single-post, .home, .archive, .search) .content-section aside{display:none;}
 
+@media(min-width:768px){
+    .single-product main .title-section-wrapper .title-section{display:flex; align-items:center; justify-content:space-between;}
+}
+
 @media(min-width:1024px){
     /* encabezado de artículo */
     .single-post main .title-section-wrapper{padding-top:4.4rem;}
