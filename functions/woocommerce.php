@@ -36,7 +36,7 @@ function replace_star_ratings($html, $rating) {
 
 // personaliza los brearcrumbs
 add_filter( 'woocommerce_breadcrumb_defaults', 'renata_cambiar_breadcrumbs' );
-function mk_cambiar_breadcrumbs() {
+function renata_cambiar_breadcrumbs() {
     return array(
        'delimiter' => ' / ',
 	   'wrap_before' => '',
