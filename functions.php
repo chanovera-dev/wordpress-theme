@@ -169,6 +169,15 @@ function time_ago_text($date, $format, $post) {
 function limite_excerpt($limite) { return 15; }
 add_filter ('excerpt_length', 'limite_excerpt', 999);
 
+// oculta el título nativo del widget categorías
+function custom_widget_title($title, $instance, $id_base) {
+    if ($id_base === 'categories') { // Cambia 'categories' al ID base del widget de categorías
+        return ''; // Devuelve una cadena vacía para ocultar el título del widget
+    }
+    return $title;
+}
+add_filter('widget_title', 'custom_widget_title', 10, 3);
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
