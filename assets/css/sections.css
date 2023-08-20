@@ -39,7 +39,7 @@
 
     /* color de texto en los menús */
     :is(/*.home, */.single-post) .menu-searchform-group ul li a{color:rgba(255,255,255,.25);}
-    :is(/*.home, */.single-post) .menu-searchform-group ul li a:hover{color:#fff;}
+    :is(/*.home, */.single-post) .header-content .menu-searchform-group ul li a:hover{color:#fff;}
     :is(/*.home, */.single-post) .menu-searchform-group .searchform .searchform-wrapper svg.bi-search{color:rgba(255,255,255,.25);}
     :is(/*.home, */.single-post) .menu-searchform-group .searchform .searchform-wrapper svg.bi-search:hover{color:#fff;}
 
