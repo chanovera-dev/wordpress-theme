@@ -38,8 +38,8 @@
     .single-post main .title-section-wrapper .title{display:grid; gap:7.5rem; grid-template-columns:1fr 330px;}
 
     /* color de texto en los menús */
-    
-    
+    :is(/*.home, */.single-post) .menu-searchform-group ul li a{color:rgba(255,255,255,.25);}
+    :is(/*.home, */.single-post) .menu-searchform-group ul li a:hover{color:rgba(255,255,255,1);}
     :is(/*.home, */.single-post) .menu-searchform-group .searchform .searchform-wrapper svg.bi-search:hover{color:#fff;}
 
     /* contenido */
