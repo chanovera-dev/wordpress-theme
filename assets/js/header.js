@@ -1,13 +1,15 @@
 /* arreglo del botón del menú y del menú */
 function myFunction(x) {
     var nav = document.getElementById("menu-searchform-group");
-    var siteBrand = document.querySelector(".site-brand a");
+    var siteBrand = document.querySelector(".post-template-default .main-header .header-content .site-brand a");
     x.classList.toggle("change");
     
     if (nav.className === "menu-searchform-group") {
         nav.className += " active";
+        siteBrand.classList.add('color-menu-active');
     } else {
         nav.className = "menu-searchform-group";
+        siteBrand.classList.remove('color-menu-active');
     }
 }
 
