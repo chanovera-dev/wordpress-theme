@@ -139,7 +139,7 @@ function theme_colors() {
 
             /* cabecera */
             .main-header{border-bottom:1px solid rgba(0, 0, 0, .09);}
-            .post-template-default .main-header{border-bottom:1px solid rgba(255,255,255,.09);}
+            .single-post .main-header{border-bottom:1px solid rgba(255,255,255,.09)!important;}
             @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
                 .scroll-down .main-header,
                 .scroll-up .main-header{background:rgba(246, 246, 246, .8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
