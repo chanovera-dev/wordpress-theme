@@ -11,5 +11,5 @@
 }
 
 @media(min-width:400px){
-    .name-and-contact-data{display:inline-flex; flex-wrap:wrap; gap:0 2rem;}
+    .name-and-contact-data{display:inline-flex; flex-wrap:wrap; gap:0 2.5rem;}
 }
