@@ -2,9 +2,6 @@
     <?php include(TEMPLATEPATH . '/parts/sections/title-page.php'); ?>
     <section class="container main-content">
         <div class="section">
-            <h1>Developer</h1>
-        </div>
-        <div class="section">
             <ul class="name-and-contact-data">
                 <li>
                     <p>
