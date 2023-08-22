@@ -110,5 +110,10 @@
                 <li>Ethic</li>
             </ul>
         </div>
+        <div class="section">
+            <div class="title-wrapper">
+                <h2 class="title">Technical Skills</h2>
+            </div>
+        </div>
     </section>
 </main>
