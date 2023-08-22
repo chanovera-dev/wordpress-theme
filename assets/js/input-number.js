@@ -1,6 +1,3 @@
-const zoom = document.getElementsByClassName("woocommerce-product-gallery__trigger")[0];
-zoom.setAttribute("id", "zoom");
-
 const inputQty = document.getElementsByClassName("input-text qty text")[0];
 inputQty.setAttribute("id", "input-qty");
 
