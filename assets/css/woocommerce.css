@@ -1,4 +1,0 @@
-/* calificación con estrellas */
-article .star-rating{order:3; display:flex; gap:.7rem;}
-article .star-rating svg{color:gold;}
-article :is(.price, .star-rating){display:flex; justify-content:center;}

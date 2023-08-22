@@ -13,7 +13,13 @@
     /* botón zoom */
     .woocommerce-product-gallery__trigger{position:absolute; display:grid; place-content:center; width:4rem; height:4rem; background-color:var(--background-color-title-section); top:1rem; right:1rem; z-index:1;}
     .woocommerce-product-gallery__trigger:before{position:absolute; padding:8.5px; display:inline-block; top:50%; left:50%; transform:translate(-50%, -50%); background-color:var(--background-color-title-section); border:2px solid var(--background-color-title-section);}
-/* galería *
+
+/* sumario */
+    /* calificación con estrellas */
+    .star-rating{order:3; display:flex; gap:.7rem;}
+    .star-rating svg{color:gold;}
+    :is(.price, .star-rating){display:flex; justify-content:center;}
+    /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *
     .flex-control-nav{order:1; margin:0; padding:0; list-style:none; display:grid; gap:2rem; align-content:flex-start;}
