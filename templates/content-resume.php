@@ -71,5 +71,13 @@
             <p><b>BootCamp Java</b> <span class="text-colored"><b>FUNVAL Internacional</b> June - August 2023</span></p>
             <p><b>Definitive HTML and CSS course / Blog creation course with Wordpress / Wordpress theme creation course / Frontend Developer course</b> <span class="text-colored"><b>Platzi.com</b> 2021</span></p>
         </div>
+        <div class="section">
+            <div class="title-wrapper">
+                <h2 class="title">Work experience</h2>
+            </div>
+            <div>
+                <p><b>Systems manager / Frontend developer / Designer</b> <span class="text-colored"><b>Freelance</b></span></p>
+            </div>
+        </div>
     </section>
 </main>

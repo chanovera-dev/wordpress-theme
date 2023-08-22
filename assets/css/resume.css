@@ -14,7 +14,7 @@
 .text-colored{color:var(--color-text-link);}
 
 .section p{line-height:1.7;}
-.section p:not(:last-child){margin-bottom:1.7rem;}
+.section > p:not(:last-child){margin-bottom:1.7rem;}
 
 @media screen and (min-width:31px) and (max-width:399px){
     .name-and-contact-data li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
