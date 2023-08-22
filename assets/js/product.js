@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
     container.classList.add("mi-contenedor"); // Agregar una clase al contenedor si es necesario
   
     // Mover el elemento de disparo dentro del nuevo contenedor
-    container.appendChild(triggerElement.cloneNode(true)); // Clonar el nodo para moverlo, si es necesario
-  
-    // Reemplazar el elemento original con el nuevo contenedor
-    triggerElement.parentNode.replaceChild(container, triggerElement);
+    triggerElement.parentNode.insertBefore(container, triggerElement);
+    container.appendChild(triggerElement);
   });

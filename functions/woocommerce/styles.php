@@ -43,7 +43,7 @@ function template_redirect_action() {
             $tipo    = $product->get_type();
             wp_enqueue_style( 'single-product-styles', get_template_directory_uri() . '/assets/css/single-product.css' );
             // JS de ajustes
-            wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
+            wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/product.js', '', 1, true );
             // JS de ajustes para swatches
             // wp_enqueue_script( 'swatches', get_template_directory_uri() . '/assets/js/swatches.js', '', 1, true );
             return array_merge( $classes, array( $tipo ) );
