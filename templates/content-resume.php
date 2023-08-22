@@ -77,6 +77,8 @@
             </div>
             <div>
                 <p><b>Systems manager / Frontend developer / Designer</b> <span class="text-colored"><b>Freelance</b></span></p>
+                <p>End user support / Design and implementation of websites</p>
+                <span class="text-colored"><p>2017 / Currently</p></span>
             </div>
         </div>
     </section>
