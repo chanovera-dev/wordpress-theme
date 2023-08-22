@@ -62,6 +62,7 @@
             <div class="title-wrapper">
                 <h2 class="title">Academic Record</h2>
             </div>
+            <p><b>Computer Systems Engineering</b> <span><b>Universidad Virtual del Estado de Guanajuato</b> Currently.</span></p>
         </div>
     </section>
 </main>
