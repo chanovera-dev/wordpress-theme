@@ -7,7 +7,7 @@
 .name-and-contact-data li a{text-decoration:none; display:inline-flex; align-items:center; gap:.7rem;}
 .name-and-contact-data li svg{color:var(--color-text);}
 
-.title-wrapper{position:relative; margin-bottom:2rem; border-bottom:2px solid #f1f1f1;}
+.title-wrapper{position:relative; margin-bottom:2rem!important; border-bottom:2px solid #f1f1f1;}
 .section-title{font-size:var(--wp--preset--font-size--x-large); font-weight:600; color:var(--color-text); display:inline; position:relative;}
 .section-title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content:'';}
 
