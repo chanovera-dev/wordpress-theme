@@ -41,6 +41,7 @@ function template_redirect_action() {
             global $post;
             $product = wc_get_product( $post->ID );
             $tipo    = $product->get_type();
+            wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
             wp_enqueue_style( 'single-product-styles', get_template_directory_uri() . '/assets/css/single-product.css' );
             // Javascript para ajustes de artículo
             wp_enqueue_script( 'varios', get_template_directory_uri() . '/assets/js/product.js', '', 1, true );
