@@ -42,11 +42,13 @@ function template_redirect_action() {
             $product = wc_get_product( $post->ID );
             $tipo    = $product->get_type();
             wp_enqueue_style( 'single-product-styles', get_template_directory_uri() . '/assets/css/single-product.css' );
+            // Javascript para ajustes de artículo
+            wp_enqueue_script( 'varios', get_template_directory_uri() . '/assets/js/product.js', '', 1, true );
             // JS de ajustes para el input de números
-            wp_enqueue_script( 'input-number', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
+            // wp_enqueue_script( 'input-number', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
             // JS de ajustes para swatches
-            wp_enqueue_script( 'swatches', get_template_directory_uri() . '/assets/js/swatches.js', '', 1, true );
-            return array_merge( $classes, array( $tipo ) );
+            // wp_enqueue_script( 'swatches', get_template_directory_uri() . '/assets/js/swatches.js', '', 1, true );
+            // return array_merge( $classes, array( $tipo ) );
         } );
     }
 }
