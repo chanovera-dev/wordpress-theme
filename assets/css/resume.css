@@ -17,7 +17,7 @@
 .section > :is(p:not(:last-child), div){margin-bottom:1.7rem;}
 
 .skills{margin:0; padding:0; list-style:none;}
-.skills li{display:inline-flex; align-items:center; height:3rem; padding:0 1rem; background-color:var(--color-text-link); border-radius:.4rem; color:#2075af;}
+.skills li{display:inline-flex; align-items:center; height:3rem; padding:0 1rem; background-color:var(--color-text-link); border-radius:.4rem; color:#1b6496;}
 
 @media screen and (min-width:31px) and (max-width:399px){
     .name-and-contact-data li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
