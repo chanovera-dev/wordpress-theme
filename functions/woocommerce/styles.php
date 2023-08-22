@@ -15,6 +15,7 @@ add_action( 'wp_enqueue_scripts', 'shop_styles' );
 function products_cat_styles() {
     if ( is_product_category() ) {
         wp_dequeue_style( 'wp-block-library' );
+        wp_enqueue_style( 'woocommerce-styles', get_template_directory_uri() . '/assets/css/woocommerce.css' );
         wp_enqueue_style( 'product-cat-styles', get_template_directory_uri() . '/assets/css/shop.css' );
         wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
         
@@ -41,6 +42,7 @@ function template_redirect_action() {
             global $post;
             $product = wc_get_product( $post->ID );
             $tipo    = $product->get_type();
+            wp_enqueue_style( 'woocommerce-styles', get_template_directory_uri() . '/assets/css/woocommerce.css' );
             wp_enqueue_style( 'single-product-styles', get_template_directory_uri() . '/assets/css/single-product.css' );
             // JS de ajustes
             wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );

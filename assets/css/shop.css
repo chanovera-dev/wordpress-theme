@@ -16,7 +16,7 @@ main .container .section.archive-products:has(article:hover) > article:not(:hove
         article :is(.button-cart-wrapper, .title, .price, .excerpt-wrapper, .wp-block-button, .wp-element-button, .added_to_cart, .link-to-product){font-size:1.4rem;}
         /* título */
         article .title{font-weight:bold;}
-        /* calificación */
+        /* calificación *
         article .star-rating{order:3; display:flex; gap:.7rem;}
         article .star-rating svg{color:gold;}
         article :is(.price, .star-rating){display:flex; justify-content:center;}
