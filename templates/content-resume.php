@@ -69,6 +69,7 @@
                 <h2 class="title">Non-Academic training</h2>
             </div>
             <p><b>BootCamp Java</b> <span class="text-colored"><b>FUNVAL Internacional</b> June - August 2023</span></p>
+            <p><b>Definitive HTML and CSS course / Blog creation course with Wordpress / Wordpress theme creation course / Frontend Developer course</b> <span class="text-colored"><b>Platzi.com</b> 2021</span></p>
         </div>
     </section>
 </main>
