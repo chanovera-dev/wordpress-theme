@@ -89,6 +89,10 @@
                 <p><b>Tech Support</b> <span class="text-colored"><b>Ciudad del Carmen City Hall</b></span></p>
                 <p>Tech support. Linux-based Institutional Mail Server Administrator <span class="text-colored">July 2012 / December 2012</span></p>
             </div>
+            <div>
+                <p><b>Systems manager</b> <span class="text-colored"><b>Bit Byte Computation</b></span></p>
+                <p>Tech support / Teacher <span class="text-colored">2002 / 2010</span></p>
+            </div>
         </div>
     </section>
 </main>
