@@ -58,5 +58,10 @@
                 </li>
             </ul>
         </div>
+        <div class="section">
+            <div class="title-wrapper">
+                <h2 class="title">Academic Record</h2>
+            </div>
+        </div>
     </section>
 </main>
