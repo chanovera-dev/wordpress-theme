@@ -16,6 +16,7 @@
 
 /* sumario */
 .product-summary > *:not(:last-child){margin-bottom:2rem;}
+    
     /* calificación */
     .woocommerce-product-rating{display:flex; align-items:center; gap:2rem;}
         /* calificación con estrellas */
@@ -24,9 +25,13 @@
         .star-rating{display:flex;}
         /**/
         .woocommerce-review-link{text-decoration:none;}
+    
     /* precio */
-        .price del{opacity:.25; margin-right:.7rem;}
-        .price ins{text-decoration:none; font-weight:bold;}
+    .price del{opacity:.25; margin-right:.7rem;}
+    .price ins{text-decoration:none; font-weight:bold;}
+
+    /* agregar al carrito */
+    .cart{display:inline-flex; align-items:center; gap:3rem;}
     /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *
