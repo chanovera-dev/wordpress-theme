@@ -81,9 +81,13 @@
                 <span class="text-colored"><p>2017 / Currently</p></span>
             </div>
             <div>
-            <p><b>Systems manager</b> <span class="text-colored"><b>Biss Coworking</b></span></p>
-            <p>Tech support. Security and access control manager. Network management and maintenance manager. Technology Consultant. <i>I standardized facility access protocols, migrated the wireless network to 5Ghz, standardized internal systems to 5Ghz, standardized internal systems and reduced technical failures to 0</i></p>
-            <span class="text-colored"><p>June 2016 / February 2017</p></span>
+                <p><b>Systems manager</b> <span class="text-colored"><b>Biss Coworking</b></span></p>
+                <p>Tech support. Security and access control manager. Network management and maintenance manager. Technology Consultant. <i>I standardized facility access protocols, migrated the wireless network to 5Ghz, standardized internal systems to 5Ghz, standardized internal systems and reduced technical failures to 0</i></p>
+                <span class="text-colored"><p>June 2016 / February 2017</p></span>
+            </div>
+            <div>
+                <p><b>Tech Support</b> <span class="text-colored"><b>Ciudad del Carmen City Hall</b></span></p>
+                <p>Tech support. Linux-based Institutional Mail Server Administrator <span class="text-colored">July 2012 / December 2012</span></p>
             </div>
         </div>
     </section>
