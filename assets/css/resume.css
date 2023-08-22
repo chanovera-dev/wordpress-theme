@@ -2,3 +2,4 @@
 .page-template-resume main .container.main-content .section{padding:0;}
 
 .name-and-contact-data{margin:0; padding:0; list-style:none;}
+.name-and-contact-data li{display:inline-flex; align-items:center; height:5rem;}
