@@ -1,4 +1,4 @@
-.page-template-resume main .container.main-content{padding:3rem 0; display:grid; gap:3rem;}
+.page-template-resume main .container.main-content{padding:4rem 0; display:grid; gap:4rem;}
 .page-template-resume main .container.main-content .section{padding:0;}
 
 .name-and-contact-data{margin:0; padding:0; list-style:none;}
@@ -13,7 +13,8 @@
 
 .text-colored{color:var(--color-text-link);}
 
-.section p:not(:last-child){margin-bottom:1.9rem;}
+.section p{line-height:1.7;}
+.section p:not(:last-child){margin-bottom:1.7rem;}
 
 @media screen and (min-width:31px) and (max-width:399px){
     .name-and-contact-data li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
