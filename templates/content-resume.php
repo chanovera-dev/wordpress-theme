@@ -4,8 +4,8 @@
         <div class="section">
             <h1>Developer</h1>
         </div>
-        <div class="section name-and-contact-data">
-            <ul>
+        <div class="section">
+            <ul class="name-and-contact-data">
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="current_Color" class="bi bi-person-badge" viewBox="0 0 16 16">
                         <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
