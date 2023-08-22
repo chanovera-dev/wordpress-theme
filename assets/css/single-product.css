@@ -56,6 +56,9 @@
         .single_add_to_cart_button:focus{outline:none; box-shadow:var(--box-shadow-focus);}
         .single_add_to_cart_button{width:auto; padding:0 2rem;}
         .single_add_to_cart_button:hover{background-color:var();}
+
+/* container aside product */
+.container-aside-product{background-color:orange;}
     /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *

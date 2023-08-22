@@ -10,13 +10,11 @@
             <div class="product-summary">
                 <?php 
                     do_action( 'woocommerce_single_product_summary' );
-                    // do_action( 'woocommerce_simple_add_to_cart' );
-                    // do_action( 'woocommerce_after_add_to_cart_quantity' );
                 ?>
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container container-aside-product">
         <div class="section">
             <?php do_action( 'woocommerce_after_single_product_summary' );
                 do_action( 'woocommerce_after_main_content' );
