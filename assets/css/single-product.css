@@ -16,9 +16,9 @@
 
 /* sumario */
     /* calificación con estrellas */
-    .star-rating{order:3; display:flex; gap:.7rem;}
+    .star-rating{display:flex; gap:.7rem;}
     .star-rating svg{color:gold;}
-    :is(.price, .star-rating){display:flex; justify-content:center;}
+    .star-rating{display:flex;}
     /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *
