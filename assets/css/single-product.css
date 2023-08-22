@@ -15,6 +15,7 @@
     .woocommerce-product-gallery__trigger:before{position:absolute; padding:8.5px; display:inline-block; top:50%; left:50%; transform:translate(-50%, -50%); background-color:var(--background-color-title-section); border:2px solid var(--background-color-title-section);}
 
 /* sumario */
+.product-summary > *:not(:last-child){margin-bottom:2rem;}
     /* calificación */
     .woocommerce-product-rating{display:flex; align-items:center; gap:2rem;}
         /* calificación con estrellas */
