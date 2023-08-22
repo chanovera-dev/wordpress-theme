@@ -114,6 +114,37 @@
             <div class="title-wrapper">
                 <h2 class="title">Technical Skills</h2>
             </div>
+            <ul class="tech">
+                <li>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Red Hat</li>
+                        <li>macOS</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>Wordpress</li>
+                        <li>Woocommerce</li>
+                    </ul>
+                </li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>Git</li>
+                    </ul>
+                </li>
+                <li>MySQL</li>
+            </ul>
         </div>
     </section>
 </main>
