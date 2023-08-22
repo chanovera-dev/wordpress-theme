@@ -62,7 +62,13 @@
             <div class="title-wrapper">
                 <h2 class="title">Academic Record</h2>
             </div>
-            <p><b>Computer Systems Engineering</b> <span class="text-colored"><b>Universidad Virtual del Estado de Guanajuato</b> Currently.</span></p>
+            <p><b>Computer Systems Engineering</b> <span class="text-colored"><b>Universidad Virtual del Estado de Guanajuato</b> Currently</span></p>
+        </div>
+        <div class="section">
+            <div class="title-wrapper">
+                <h2 class="title">Non-Academic training</h2>
+            </div>
+            <p><b>BootCamp Java</b> <span class="text-colored"><b>FUNVAL Internacional</b> June - August 2023</span></p>
         </div>
     </section>
 </main>
