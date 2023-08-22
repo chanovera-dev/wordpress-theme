@@ -15,10 +15,14 @@
     .woocommerce-product-gallery__trigger:before{position:absolute; padding:8.5px; display:inline-block; top:50%; left:50%; transform:translate(-50%, -50%); background-color:var(--background-color-title-section); border:2px solid var(--background-color-title-section);}
 
 /* sumario */
-    /* calificación con estrellas */
-    .star-rating{display:flex; gap:.7rem;}
-    .star-rating svg{color:gold;}
-    .star-rating{display:flex;}
+    /* calificación */
+    .woocommerce-product-rating{display:flex; align-items:center; gap:2rem;}
+        /* calificación con estrellas */
+        .star-rating{display:flex; gap:.7rem;}
+        .star-rating svg{color:gold;}
+        .star-rating{display:flex;}
+        /**/
+        .woocommerce-review-link{text-decoration:none;}
     /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *
