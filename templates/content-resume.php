@@ -94,5 +94,21 @@
                 <p>Tech support / Teacher <span class="text-colored">2002 / 2010</span></p>
             </div>
         </div>
+        <div class="section">
+            <div class="title-wrapper">
+                <h2 class="title">Soft Skills</h2>
+            </div>
+            <ul class="skills">
+                <li>Creative</li>
+                <li>Persuasive</li>
+                <li>Patient</li>
+                <li>Collaborative</li>
+                <li>Flexible</li>
+                <li>Liable</li>
+                <li>Empathic</li>
+                <li>Positive</li>
+                <li>Ethic</li>
+            </ul>
+        </div>
     </section>
 </main>
