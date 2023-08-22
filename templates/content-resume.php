@@ -136,8 +136,16 @@
                         <li>Woocommerce</li>
                     </ul>
                 </li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>
+                    <ul>
+                        <li>HTML</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>CSS</li>
+                    </ul>
+                </li>
                 <li>
                     <ul>
                         <li>Javascript</li>
