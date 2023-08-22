@@ -20,6 +20,7 @@
 .skills li{display:inline-flex; align-items:center; height:3rem; padding:0 1rem; background-color:var(--color-text-link); border-radius:.4rem; color:#1b6496;}
 
 .tech{margin:0; padding:0; list-style:none; display:inline-flex; flex-wrap:wrap; gap:3rem;}
+.tech li{display:inline-flex; align-items:center; gap:.7rem;}
 .tech li ul{margin:0; padding:0; list-style:none;}
 
 @media screen and (min-width:31px) and (max-width:399px){
