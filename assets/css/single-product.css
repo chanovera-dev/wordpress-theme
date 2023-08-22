@@ -32,6 +32,8 @@
 
     /* agregar al carrito */
     .cart{display:inline-flex; align-items:center; gap:3rem;}
+        /* cantidad */
+        .quantity{display:flex; align-items:center;}
     /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *
