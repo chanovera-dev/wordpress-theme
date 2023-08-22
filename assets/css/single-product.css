@@ -1,4 +1,4 @@
-.main-content{display:grid;}
+.single-product main .main-content{display:grid;}
 
 .single-product main .container.container-data-product{position:relative; overflow:hidden;}
 .single-product main .container.title-section-wrapper .section{padding:2rem 0;}
