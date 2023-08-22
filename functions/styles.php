@@ -84,7 +84,7 @@ add_action( 'wp_enqueue_scripts', 'single_styles' );
 // Estilos para el template de la página Resume
 function resume_styles() {
     if ( is_page_template('resume.php') ) {
-        wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
+        wp_enqueue_style( 'resume-styles', get_template_directory_uri() . '/assets/css/resume.css' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'resume_styles' );
