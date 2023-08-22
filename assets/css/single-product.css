@@ -24,6 +24,9 @@
         .star-rating{display:flex;}
         /**/
         .woocommerce-review-link{text-decoration:none;}
+    /* precio */
+        .price del{opacity:.25; margin-right:.7rem;}
+        .price ins{text-decoration:none; font-weight:bold;}
     /* galería *
 .woocommerce-product-gallery{position:relative; display:grid; align-items:flex-start; gap:2rem; grid-template-columns:5rem 1fr 4rem;}
     /* miniaturas *
