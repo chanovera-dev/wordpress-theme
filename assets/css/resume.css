@@ -6,6 +6,10 @@
 .name-and-contact-data li p{display:inline-flex; align-items:center; gap:.7rem;}
 .name-and-contact-data li a{text-decoration:none; display:inline-flex; align-items:center; gap:.7rem;}
 
-@media screen and (min-width: 31px) and (max-width: 767px){
+@media screen and (min-width:31px) and (max-width:399px){
     .name-and-contact-data li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
+}
+
+@media(min-width:400px){
+    .name-and-contact-data{display:inline-flex; flex-wrap:wrap; gap:1rem;}
 }
