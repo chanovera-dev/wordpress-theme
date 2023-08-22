@@ -21,7 +21,7 @@
 
 .tech{margin:0; padding:0; list-style:none; display:inline-flex; flex-wrap:wrap; gap:3rem;}
 .tech li{display:inline-flex; align-items:center; gap:.7rem;}
-.tech li ul{margin:0; padding:0; list-style:none;}
+.tech li ul{margin:0; padding:0; list-style:none; display:grid;}
 
 @media screen and (min-width:31px) and (max-width:399px){
     .name-and-contact-data li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
