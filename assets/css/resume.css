@@ -3,4 +3,4 @@
 
 .name-and-contact-data{margin:0; padding:0; list-style:none;}
 .name-and-contact-data li{display:flex; align-items:center; height:5rem;}
-.name-and-contact-data li a{text-decoration:none; display:inline-flex; align-items:center; gap:.7rem;}
+.name-and-contact-data li:is(p, a){text-decoration:none; display:inline-flex; align-items:center; gap:.7rem;}
