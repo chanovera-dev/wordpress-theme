@@ -16,6 +16,8 @@
 .section p{line-height:1.7;}
 .section > :is(p:not(:last-child), div){margin-bottom:1.7rem;}
 
+.skills{margin:0; padding:0; list-style:none;}
+
 @media screen and (min-width:31px) and (max-width:399px){
     .name-and-contact-data li:not(:last-child){border-bottom:1px solid var(--border-color-input);}
 }
