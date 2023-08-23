@@ -87,7 +87,7 @@ function theme_colors() {
         <style>
             :root{
                 /* generales */
-                --color-header:#a1a1a1;
+                --color-header:#9eadb7;
                 --color-text:#000;
                 --color-text-link:#2ea8fa;
                 --color-text-link-hover:#c12927;
