@@ -94,10 +94,10 @@ function theme_colors() {
                 --color-emphasis:#c12927;
                 --box-shadow-focus:0 0 0 .3rem #2ea8fa;
                 --box-shadow-input-focus:0 0 0 .3rem rgba(46, 168, 250, 0.2);
-                --box-shadow-main-content:  0 4px  30px  rgba(0, 0, 0, .1),
-                                            0 4px  8px  rgba(0, 0, 0, .08),
-                                            0 16px  16px  rgba(0, 0, 0, .09),
-                                            0 24px  64px  rgba(0, 0, 0, .08);
+                --box-shadow-main-content:  0 4px  30px  rgba(21, 80, 120, .1),
+                                            0 4px  8px  rgba(21, 80, 120, .08),
+                                            0 16px  16px  rgba(21, 80, 120, .09),
+                                            0 24px  64px  rgba(21, 80, 120, .08);
                 --background-color-body:#f6f6f6;
                 --background-color-main:#f6f6f6;
                 --background-color-main-content:#fff;
