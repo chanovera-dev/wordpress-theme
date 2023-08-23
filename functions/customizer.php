@@ -98,10 +98,10 @@ function theme_colors() {
                                             0 4px  8px  rgba(21, 80, 120, .08),
                                             0 16px  16px  rgba(21, 80, 120, .09),
                                             0 24px  64px  rgba(21, 80, 120, .08);
-                --background-color-body:#f6f6f6;
-                --background-color-main:#f6f6f6;
+                --background-color-body:#e7edf1;
+                --background-color-main:#e7edf1;
                 --background-color-main-content:#fff;
-                --background-color-header:#f6f6f6;
+                --background-color-header:#e7edf1;
                 --linear-gradient:linear-gradient(-45deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73));
                 
                 /* código incrustado */
