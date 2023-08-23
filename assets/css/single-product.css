@@ -67,6 +67,8 @@
 
 /* container aside product */
 .container-aside-product{background-color:var(--background-color-contact-section);}
+        /* tabs de contenido extra */
+        .tabs.wc-tabs{margin:0; padding:0; list-style:none; display:flex; align-items:center;}
 
 @media(min-width:768px){
     /* datos del producto */
