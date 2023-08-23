@@ -66,7 +66,7 @@
         .single_add_to_cart_button:hover{background-color:var();}
 
 /* container aside product */
-.container-aside-product{background-color:#c0e4fd;}
+.container-aside-product{background-color:var(--background-color-contact-section);}
 
 @media(min-width:768px){
     /* datos del producto */
