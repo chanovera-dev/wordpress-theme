@@ -130,7 +130,7 @@ function theme_colors() {
                     --color-contact-section:#c0606c;
 
                 /* sección de contacto */
-                --background-color-contact-section:#F8E5E2;
+                --background-color-contact-section:#c0e4fd;
                 --background-color-input-contact-section:#faefed;
                 --border-color-contact-section:#F4D8D3;
                 --color-contact-section:#c0606c;
