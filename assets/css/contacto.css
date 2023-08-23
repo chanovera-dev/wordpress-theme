@@ -1,3 +1,10 @@
+:root{
+    --box-shadow-main-content:  0 4px  30px  rgba(27,100,150,.1),
+                                0 4px  8px  rgba(27,100,150,.08),
+                                0 16px  16px  rgba(27,100,150,.09),
+                                0 24px  64px  rgba(27,100,150,.08);
+}
+
 #contact-group{background-color:var(--background-color-contact-section);}
 #contact-group .section{display:grid; grid-template-columns:repeat(auto-fill, minmax(305px, 1fr)); padding:4rem 0; gap:5rem;}
 #contact-group .content-section .contact-form{display:grid; gap:1.7rem; align-content:flex-start;}
