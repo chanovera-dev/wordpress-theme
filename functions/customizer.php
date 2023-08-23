@@ -122,7 +122,7 @@ function theme_colors() {
                 --color-tag:#957772;
                 --color-tag-hover:#c0606c;
                 --background-color-tag:#F4D8D3;
-                    /* comentarios */
+                    /* comentarios *
                     --background-color-contact-section:#F8E5E2;
                     --background-color-input-contact-section:#faefed;
                     --background-color-button:#c0606c;
