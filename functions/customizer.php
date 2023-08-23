@@ -132,7 +132,7 @@ function theme_colors() {
                 /* sección de contacto */
                 --background-color-contact-section:#c0e4fd;
                 --background-color-input-contact-section:#faefed;
-                --border-color-contact-section:#F4D8D3;
+                --border-color-contact-section:#2486c8;
                 --color-contact-section:#c0606c;
                 
             }
