@@ -69,6 +69,9 @@
 .container-aside-product{background-color:var(--background-color-contact-section); padding:3rem 0;}
         /* tabs de contenido extra */
         .tabs.wc-tabs{margin:0; padding:0; list-style:none; display:flex; align-items:center;}
+        /* descripción del producto */
+        .woocommerce-Tabs-panel--description > *{line-height:1.7;}
+        .woocommerce-Tabs-panel--description > *:not(:last-child){margin-bottom:1.7rem;}
 
 @media(min-width:768px){
     /* datos del producto */
