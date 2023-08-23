@@ -108,7 +108,7 @@ function theme_colors() {
                
 
                 /* encabezado */
-                --background-color-title-section:#f6f6f6;
+                --background-color-title-section:#e7edf1;
                 --background-color-current-lang:#c0606c;
                 --border-color-lang:#c0606c;
                 --color-lang:#c0606c;
@@ -142,7 +142,7 @@ function theme_colors() {
             .single-post .main-header{border-bottom:1px solid rgba(255,255,255,.09)!important;}
             @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
                 .scroll-down .main-header,
-                .scroll-up .main-header{background:rgba(246, 246, 246, .8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                .scroll-up .main-header{background:rgba(231, 237, 241, .8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
             /*  .home.scroll-down .main-header,
                 .home.scroll-up .main-header, */
                 .single-post.scroll-down .main-header,
