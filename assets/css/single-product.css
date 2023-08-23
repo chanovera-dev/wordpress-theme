@@ -19,7 +19,7 @@
     .flex-control-nav{order:1; margin:2rem 0 0 0; padding:0; list-style:none; display:flex; gap:2rem; align-content:flex-start;}
     .flex-control-nav li{border-radius:.4rem; overflow:hidden; display:flex;}
     .flex-control-nav li img{width:5rem;}
-    .flex-control-thumbs li img{opacity:.5; aspect-ratio:3/4; object-fit:cover; transition:all .25s ease;}
+    .flex-control-thumbs li img{opacity:.5; aspect-ratio:1/1; object-fit:cover; transition:all .25s ease;}
     .flex-control-thumbs li img:hover{opacity:1;}
     .flex-control-thumbs li img.flex-active{opacity:1;}
 /* sumario */
